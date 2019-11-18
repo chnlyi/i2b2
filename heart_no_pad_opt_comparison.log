@@ -1,0 +1,2875 @@
+Iteration No: 1 started. Evaluating function at provided point.
+upsampling for 7 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.028547 	Validation Loss: 0.009217
+Adiitional val metrics: - ROC-AUC: 0.985285 - Log-Loss: 0.651832 - Hamming-Loss: 0.001318 - Subset-Accuracy: 0.955587 - F1-Score: 0.937459
+Validation loss decreased (inf --> 0.009217).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015877 	Validation Loss: 0.007906
+Adiitional val metrics: - ROC-AUC: 0.991219 - Log-Loss: 0.556170 - Hamming-Loss: 0.001249 - Subset-Accuracy: 0.952794 - F1-Score: 0.941142
+Validation loss decreased (0.009217 --> 0.007906).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013666 	Validation Loss: 0.006802
+Adiitional val metrics: - ROC-AUC: 0.993173 - Log-Loss: 0.485192 - Hamming-Loss: 0.001202 - Subset-Accuracy: 0.953913 - F1-Score: 0.943502
+Validation loss decreased (0.007906 --> 0.006802).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.012290 	Validation Loss: 0.006196
+Adiitional val metrics: - ROC-AUC: 0.994206 - Log-Loss: 0.443429 - Hamming-Loss: 0.001183 - Subset-Accuracy: 0.954373 - F1-Score: 0.944433
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011300 	Validation Loss: 0.005789
+Adiitional val metrics: - ROC-AUC: 0.994872 - Log-Loss: 0.416009 - Hamming-Loss: 0.001150 - Subset-Accuracy: 0.953366 - F1-Score: 0.946074
+Validation loss decreased (0.006802 --> 0.005789).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010536 	Validation Loss: 0.005496
+Adiitional val metrics: - ROC-AUC: 0.995273 - Log-Loss: 0.397330 - Hamming-Loss: 0.001128 - Subset-Accuracy: 0.953849 - F1-Score: 0.947180
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 7 	Training Loss: 0.009894 	Validation Loss: 0.005306
+Adiitional val metrics: - ROC-AUC: 0.995553 - Log-Loss: 0.384504 - Hamming-Loss: 0.001120 - Subset-Accuracy: 0.953910 - F1-Score: 0.947562
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 7, window_size = 4, embed_size = 30, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7453451407811081
+
+
+
+Iteration No: 1 ended. Evaluation done at provided point.
+Time taken: 675.6524
+Function value obtained: -0.7453
+Current minimum: -0.7453
+Iteration No: 2 started. Evaluating function at random point.
+upsampling for 6 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.027242 	Validation Loss: 0.009070
+Adiitional val metrics: - ROC-AUC: 0.986011 - Log-Loss: 0.634679 - Hamming-Loss: 0.001281 - Subset-Accuracy: 0.956340 - F1-Score: 0.939304
+Validation loss decreased (inf --> 0.009070).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014905 	Validation Loss: 0.007252
+Adiitional val metrics: - ROC-AUC: 0.991371 - Log-Loss: 0.516188 - Hamming-Loss: 0.001201 - Subset-Accuracy: 0.955860 - F1-Score: 0.943230
+Validation loss decreased (0.009070 --> 0.007252).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012824 	Validation Loss: 0.006444
+Adiitional val metrics: - ROC-AUC: 0.993205 - Log-Loss: 0.461494 - Hamming-Loss: 0.001144 - Subset-Accuracy: 0.955628 - F1-Score: 0.946221
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011597 	Validation Loss: 0.006005
+Adiitional val metrics: - ROC-AUC: 0.994232 - Log-Loss: 0.431184 - Hamming-Loss: 0.001121 - Subset-Accuracy: 0.955921 - F1-Score: 0.947363
+Validation loss decreased (0.007252 --> 0.006005).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010711 	Validation Loss: 0.005654
+Adiitional val metrics: - ROC-AUC: 0.994942 - Log-Loss: 0.407643 - Hamming-Loss: 0.001098 - Subset-Accuracy: 0.956744 - F1-Score: 0.948497
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009974 	Validation Loss: 0.005359
+Adiitional val metrics: - ROC-AUC: 0.995497 - Log-Loss: 0.387933 - Hamming-Loss: 0.001078 - Subset-Accuracy: 0.957007 - F1-Score: 0.949464
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 6, window_size = 4, embed_size = 40, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7284930547449515
+
+
+
+Iteration No: 2 ended. Evaluation done at random point.
+Time taken: 515.1781
+Function value obtained: -0.7285
+Current minimum: -0.7453
+Iteration No: 3 started. Evaluating function at random point.
+upsampling for 5 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026296 	Validation Loss: 0.009134
+Adiitional val metrics: - ROC-AUC: 0.984659 - Log-Loss: 0.646474 - Hamming-Loss: 0.001303 - Subset-Accuracy: 0.954272 - F1-Score: 0.938254
+Validation loss decreased (inf --> 0.009134).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014853 	Validation Loss: 0.007407
+Adiitional val metrics: - ROC-AUC: 0.990825 - Log-Loss: 0.526342 - Hamming-Loss: 0.001249 - Subset-Accuracy: 0.954796 - F1-Score: 0.940989
+Validation loss decreased (0.009134 --> 0.007407).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012757 	Validation Loss: 0.006553
+Adiitional val metrics: - ROC-AUC: 0.993057 - Log-Loss: 0.467660 - Hamming-Loss: 0.001177 - Subset-Accuracy: 0.955632 - F1-Score: 0.944586
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011507 	Validation Loss: 0.006111
+Adiitional val metrics: - ROC-AUC: 0.994083 - Log-Loss: 0.437584 - Hamming-Loss: 0.001151 - Subset-Accuracy: 0.955743 - F1-Score: 0.945870
+Validation loss decreased (0.007407 --> 0.006111).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010646 	Validation Loss: 0.005791
+Adiitional val metrics: - ROC-AUC: 0.994718 - Log-Loss: 0.416371 - Hamming-Loss: 0.001123 - Subset-Accuracy: 0.956099 - F1-Score: 0.947226
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010037 	Validation Loss: 0.005552
+Adiitional val metrics: - ROC-AUC: 0.995163 - Log-Loss: 0.400405 - Hamming-Loss: 0.001103 - Subset-Accuracy: 0.956207 - F1-Score: 0.948250
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 5, window_size = 5, embed_size = 30, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.733640023001725
+
+
+
+Iteration No: 3 ended. Evaluation done at random point.
+Time taken: 477.5210
+Function value obtained: -0.7336
+Current minimum: -0.7453
+Iteration No: 4 started. Evaluating function at random point.
+upsampling for 7 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.028526 	Validation Loss: 0.009626
+Adiitional val metrics: - ROC-AUC: 0.985751 - Log-Loss: 0.678014 - Hamming-Loss: 0.001328 - Subset-Accuracy: 0.954107 - F1-Score: 0.936892
+Validation loss decreased (inf --> 0.009626).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015736 	Validation Loss: 0.007304
+Adiitional val metrics: - ROC-AUC: 0.992441 - Log-Loss: 0.517926 - Hamming-Loss: 0.001266 - Subset-Accuracy: 0.952623 - F1-Score: 0.940198
+Validation loss decreased (0.009626 --> 0.007304).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013485 	Validation Loss: 0.006500
+Adiitional val metrics: - ROC-AUC: 0.994031 - Log-Loss: 0.462808 - Hamming-Loss: 0.001215 - Subset-Accuracy: 0.951755 - F1-Score: 0.942789
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.012197 	Validation Loss: 0.006040
+Adiitional val metrics: - ROC-AUC: 0.994758 - Log-Loss: 0.430836 - Hamming-Loss: 0.001184 - Subset-Accuracy: 0.951981 - F1-Score: 0.944360
+Validation loss decreased (0.007304 --> 0.006040).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011248 	Validation Loss: 0.005711
+Adiitional val metrics: - ROC-AUC: 0.995198 - Log-Loss: 0.408933 - Hamming-Loss: 0.001153 - Subset-Accuracy: 0.952886 - F1-Score: 0.945822
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010507 	Validation Loss: 0.005480
+Adiitional val metrics: - ROC-AUC: 0.995487 - Log-Loss: 0.393673 - Hamming-Loss: 0.001125 - Subset-Accuracy: 0.953744 - F1-Score: 0.947147
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 7, window_size = 3, embed_size = 30, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7229012915129152
+
+
+
+Iteration No: 4 ended. Evaluation done at random point.
+Time taken: 550.0910
+Function value obtained: -0.7229
+Current minimum: -0.7453
+Iteration No: 5 started. Evaluating function at random point.
+upsampling for 6 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 64, bidirectional=True)
+  (hidden2tag): Linear(in_features=128, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.033923 	Validation Loss: 0.009532
+Adiitional val metrics: - ROC-AUC: 0.982712 - Log-Loss: 0.676636 - Hamming-Loss: 0.001353 - Subset-Accuracy: 0.954923 - F1-Score: 0.935716
+Validation loss decreased (inf --> 0.009532).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.017179 	Validation Loss: 0.008537
+Adiitional val metrics: - ROC-AUC: 0.986331 - Log-Loss: 0.606270 - Hamming-Loss: 0.001284 - Subset-Accuracy: 0.956502 - F1-Score: 0.939158
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.015571 	Validation Loss: 0.007754
+Adiitional val metrics: - ROC-AUC: 0.989091 - Log-Loss: 0.550923 - Hamming-Loss: 0.001280 - Subset-Accuracy: 0.956537 - F1-Score: 0.939372
+Validation loss decreased (0.009532 --> 0.007754).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.014228 	Validation Loss: 0.007179
+Adiitional val metrics: - ROC-AUC: 0.990999 - Log-Loss: 0.510431 - Hamming-Loss: 0.001234 - Subset-Accuracy: 0.956645 - F1-Score: 0.941623
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.013184 	Validation Loss: 0.006694
+Adiitional val metrics: - ROC-AUC: 0.992248 - Log-Loss: 0.477742 - Hamming-Loss: 0.001190 - Subset-Accuracy: 0.956181 - F1-Score: 0.943896
+Validation loss decreased (0.007754 --> 0.006694).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.012332 	Validation Loss: 0.006305
+Adiitional val metrics: - ROC-AUC: 0.993163 - Log-Loss: 0.451558 - Hamming-Loss: 0.001150 - Subset-Accuracy: 0.956188 - F1-Score: 0.945969
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 7 	Training Loss: 0.011622 	Validation Loss: 0.006046
+Adiitional val metrics: - ROC-AUC: 0.993859 - Log-Loss: 0.433262 - Hamming-Loss: 0.001124 - Subset-Accuracy: 0.956639 - F1-Score: 0.947220
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 6, window_size = 7, embed_size = 20, latent_dim = 64
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.6321781558864006
+
+
+
+Iteration No: 5 ended. Evaluation done at random point.
+Time taken: 595.3944
+Function value obtained: -0.6322
+Current minimum: -0.7453
+Iteration No: 6 started. Evaluating function at random point.
+upsampling for 5 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.024445 	Validation Loss: 0.009241
+Adiitional val metrics: - ROC-AUC: 0.985883 - Log-Loss: 0.639840 - Hamming-Loss: 0.001284 - Subset-Accuracy: 0.954046 - F1-Score: 0.939146
+Validation loss decreased (inf --> 0.009241).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.013918 	Validation Loss: 0.006817
+Adiitional val metrics: - ROC-AUC: 0.991993 - Log-Loss: 0.488522 - Hamming-Loss: 0.001186 - Subset-Accuracy: 0.955390 - F1-Score: 0.944112
+Validation loss decreased (0.009241 --> 0.006817).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.011764 	Validation Loss: 0.005925
+Adiitional val metrics: - ROC-AUC: 0.994042 - Log-Loss: 0.429387 - Hamming-Loss: 0.001139 - Subset-Accuracy: 0.956397 - F1-Score: 0.946422
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010547 	Validation Loss: 0.005495
+Adiitional val metrics: - ROC-AUC: 0.995093 - Log-Loss: 0.399963 - Hamming-Loss: 0.001108 - Subset-Accuracy: 0.956966 - F1-Score: 0.947939
+Validation loss decreased (0.006817 --> 0.005495).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.009638 	Validation Loss: 0.005204
+Adiitional val metrics: - ROC-AUC: 0.995730 - Log-Loss: 0.379442 - Hamming-Loss: 0.001085 - Subset-Accuracy: 0.957230 - F1-Score: 0.949107
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.008986 	Validation Loss: 0.005005
+Adiitional val metrics: - ROC-AUC: 0.996139 - Log-Loss: 0.364787 - Hamming-Loss: 0.001069 - Subset-Accuracy: 0.957436 - F1-Score: 0.949924
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 5, window_size = 5, embed_size = 30, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.757478451918202
+
+
+
+Iteration No: 6 ended. Evaluation done at random point.
+Time taken: 474.8956
+Function value obtained: -0.7575
+Current minimum: -0.7575
+Iteration No: 7 started. Evaluating function at random point.
+upsampling for 6 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.024526 	Validation Loss: 0.009087
+Adiitional val metrics: - ROC-AUC: 0.985881 - Log-Loss: 0.637580 - Hamming-Loss: 0.001287 - Subset-Accuracy: 0.955733 - F1-Score: 0.938998
+Validation loss decreased (inf --> 0.009087).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014866 	Validation Loss: 0.007376
+Adiitional val metrics: - ROC-AUC: 0.991225 - Log-Loss: 0.524814 - Hamming-Loss: 0.001215 - Subset-Accuracy: 0.954018 - F1-Score: 0.942773
+Validation loss decreased (0.009087 --> 0.007376).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012818 	Validation Loss: 0.006411
+Adiitional val metrics: - ROC-AUC: 0.993278 - Log-Loss: 0.461639 - Hamming-Loss: 0.001157 - Subset-Accuracy: 0.955018 - F1-Score: 0.945607
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011441 	Validation Loss: 0.005840
+Adiitional val metrics: - ROC-AUC: 0.994599 - Log-Loss: 0.421410 - Hamming-Loss: 0.001113 - Subset-Accuracy: 0.956375 - F1-Score: 0.947720
+Validation loss decreased (0.007376 --> 0.005840).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010324 	Validation Loss: 0.005512
+Adiitional val metrics: - ROC-AUC: 0.995350 - Log-Loss: 0.397528 - Hamming-Loss: 0.001094 - Subset-Accuracy: 0.956000 - F1-Score: 0.948662
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009584 	Validation Loss: 0.005281
+Adiitional val metrics: - ROC-AUC: 0.995719 - Log-Loss: 0.381824 - Hamming-Loss: 0.001077 - Subset-Accuracy: 0.955975 - F1-Score: 0.949461
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 6, window_size = 3, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.743954239111967
+
+
+
+Iteration No: 7 ended. Evaluation done at random point.
+Time taken: 510.1524
+Function value obtained: -0.7440
+Current minimum: -0.7575
+Iteration No: 8 started. Evaluating function at random point.
+upsampling for 5 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026705 	Validation Loss: 0.009074
+Adiitional val metrics: - ROC-AUC: 0.985341 - Log-Loss: 0.639475 - Hamming-Loss: 0.001319 - Subset-Accuracy: 0.955050 - F1-Score: 0.937401
+Validation loss decreased (inf --> 0.009074).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015031 	Validation Loss: 0.007596
+Adiitional val metrics: - ROC-AUC: 0.989891 - Log-Loss: 0.538939 - Hamming-Loss: 0.001273 - Subset-Accuracy: 0.954510 - F1-Score: 0.939734
+Validation loss decreased (0.009074 --> 0.007596).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013286 	Validation Loss: 0.007507
+Adiitional val metrics: - ROC-AUC: 0.991461 - Log-Loss: 0.522639 - Hamming-Loss: 0.001244 - Subset-Accuracy: 0.951101 - F1-Score: 0.941213
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.012194 	Validation Loss: 0.006367
+Adiitional val metrics: - ROC-AUC: 0.993352 - Log-Loss: 0.455415 - Hamming-Loss: 0.001181 - Subset-Accuracy: 0.954269 - F1-Score: 0.944465
+Validation loss decreased (0.007596 --> 0.006367).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011296 	Validation Loss: 0.005981
+Adiitional val metrics: - ROC-AUC: 0.994117 - Log-Loss: 0.428937 - Hamming-Loss: 0.001164 - Subset-Accuracy: 0.955304 - F1-Score: 0.945285
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010557 	Validation Loss: 0.005737
+Adiitional val metrics: - ROC-AUC: 0.994588 - Log-Loss: 0.412667 - Hamming-Loss: 0.001134 - Subset-Accuracy: 0.955870 - F1-Score: 0.946732
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 5, window_size = 5, embed_size = 20, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.6720857195640126
+
+
+
+Iteration No: 8 ended. Evaluation done at random point.
+Time taken: 473.2491
+Function value obtained: -0.6721
+Current minimum: -0.7575
+Iteration No: 9 started. Evaluating function at random point.
+upsampling for 6 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 64, bidirectional=True)
+  (hidden2tag): Linear(in_features=128, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.035020 	Validation Loss: 0.009027
+Adiitional val metrics: - ROC-AUC: 0.984479 - Log-Loss: 0.640031 - Hamming-Loss: 0.001333 - Subset-Accuracy: 0.954215 - F1-Score: 0.936586
+Validation loss decreased (inf --> 0.009027).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015975 	Validation Loss: 0.007780
+Adiitional val metrics: - ROC-AUC: 0.989379 - Log-Loss: 0.552507 - Hamming-Loss: 0.001282 - Subset-Accuracy: 0.956515 - F1-Score: 0.939258
+Validation loss decreased (0.009027 --> 0.007780).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013998 	Validation Loss: 0.006892
+Adiitional val metrics: - ROC-AUC: 0.992560 - Log-Loss: 0.491908 - Hamming-Loss: 0.001197 - Subset-Accuracy: 0.957061 - F1-Score: 0.943525
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.012616 	Validation Loss: 0.006343
+Adiitional val metrics: - ROC-AUC: 0.993948 - Log-Loss: 0.454673 - Hamming-Loss: 0.001150 - Subset-Accuracy: 0.957017 - F1-Score: 0.945899
+Validation loss decreased (0.007780 --> 0.006343).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011622 	Validation Loss: 0.005943
+Adiitional val metrics: - ROC-AUC: 0.994695 - Log-Loss: 0.427999 - Hamming-Loss: 0.001115 - Subset-Accuracy: 0.957293 - F1-Score: 0.947635
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010800 	Validation Loss: 0.005658
+Adiitional val metrics: - ROC-AUC: 0.995245 - Log-Loss: 0.408169 - Hamming-Loss: 0.001094 - Subset-Accuracy: 0.957341 - F1-Score: 0.948585
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 6, window_size = 6, embed_size = 40, latent_dim = 64
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.6662604350740357
+
+
+
+Iteration No: 9 ended. Evaluation done at random point.
+Time taken: 508.4146
+Function value obtained: -0.6663
+Current minimum: -0.7575
+Iteration No: 10 started. Evaluating function at random point.
+upsampling for 8 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.028806 	Validation Loss: 0.008914
+Adiitional val metrics: - ROC-AUC: 0.985565 - Log-Loss: 0.629854 - Hamming-Loss: 0.001320 - Subset-Accuracy: 0.954917 - F1-Score: 0.937307
+Validation loss decreased (inf --> 0.008914).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015740 	Validation Loss: 0.007095
+Adiitional val metrics: - ROC-AUC: 0.991209 - Log-Loss: 0.506506 - Hamming-Loss: 0.001216 - Subset-Accuracy: 0.955384 - F1-Score: 0.942741
+Validation loss decreased (0.008914 --> 0.007095).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013392 	Validation Loss: 0.006271
+Adiitional val metrics: - ROC-AUC: 0.993554 - Log-Loss: 0.450196 - Hamming-Loss: 0.001160 - Subset-Accuracy: 0.956296 - F1-Score: 0.945557
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.012077 	Validation Loss: 0.005809
+Adiitional val metrics: - ROC-AUC: 0.994590 - Log-Loss: 0.418356 - Hamming-Loss: 0.001119 - Subset-Accuracy: 0.957160 - F1-Score: 0.947508
+Validation loss decreased (0.007095 --> 0.005809).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011206 	Validation Loss: 0.005602
+Adiitional val metrics: - ROC-AUC: 0.995050 - Log-Loss: 0.403911 - Hamming-Loss: 0.001100 - Subset-Accuracy: 0.957138 - F1-Score: 0.948455
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010605 	Validation Loss: 0.005375
+Adiitional val metrics: - ROC-AUC: 0.995537 - Log-Loss: 0.388092 - Hamming-Loss: 0.001078 - Subset-Accuracy: 0.957185 - F1-Score: 0.949509
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 8, window_size = 5, embed_size = 30, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7503922887245013
+
+
+
+Iteration No: 10 ended. Evaluation done at random point.
+Time taken: 582.8932
+Function value obtained: -0.7504
+Current minimum: -0.7575
+Iteration No: 11 started. Evaluating function at random point.
+upsampling for 7 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.028296 	Validation Loss: 0.008744
+Adiitional val metrics: - ROC-AUC: 0.987252 - Log-Loss: 0.617739 - Hamming-Loss: 0.001320 - Subset-Accuracy: 0.952912 - F1-Score: 0.937295
+Validation loss decreased (inf --> 0.008744).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014925 	Validation Loss: 0.006936
+Adiitional val metrics: - ROC-AUC: 0.992412 - Log-Loss: 0.497359 - Hamming-Loss: 0.001235 - Subset-Accuracy: 0.953938 - F1-Score: 0.941818
+Validation loss decreased (0.008744 --> 0.006936).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012835 	Validation Loss: 0.006265
+Adiitional val metrics: - ROC-AUC: 0.994168 - Log-Loss: 0.449925 - Hamming-Loss: 0.001187 - Subset-Accuracy: 0.954062 - F1-Score: 0.944184
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011533 	Validation Loss: 0.005774
+Adiitional val metrics: - ROC-AUC: 0.994841 - Log-Loss: 0.417876 - Hamming-Loss: 0.001164 - Subset-Accuracy: 0.954059 - F1-Score: 0.945395
+Validation loss decreased (0.006936 --> 0.005774).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010594 	Validation Loss: 0.005480
+Adiitional val metrics: - ROC-AUC: 0.995238 - Log-Loss: 0.398898 - Hamming-Loss: 0.001127 - Subset-Accuracy: 0.954605 - F1-Score: 0.947191
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009931 	Validation Loss: 0.005309
+Adiitional val metrics: - ROC-AUC: 0.995424 - Log-Loss: 0.387187 - Hamming-Loss: 0.001118 - Subset-Accuracy: 0.955152 - F1-Score: 0.947607
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 7, window_size = 7, embed_size = 30, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7380658205099405
+
+
+
+Iteration No: 11 ended. Evaluation done at random point.
+Time taken: 544.8754
+Function value obtained: -0.7381
+Current minimum: -0.7575
+Iteration No: 12 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026341 	Validation Loss: 0.008666
+Adiitional val metrics: - ROC-AUC: 0.988103 - Log-Loss: 0.609097 - Hamming-Loss: 0.001293 - Subset-Accuracy: 0.952194 - F1-Score: 0.938816
+Validation loss decreased (inf --> 0.008666).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014749 	Validation Loss: 0.006489
+Adiitional val metrics: - ROC-AUC: 0.993665 - Log-Loss: 0.462807 - Hamming-Loss: 0.001178 - Subset-Accuracy: 0.954879 - F1-Score: 0.944613
+Validation loss decreased (0.008666 --> 0.006489).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012433 	Validation Loss: 0.005850
+Adiitional val metrics: - ROC-AUC: 0.994739 - Log-Loss: 0.420695 - Hamming-Loss: 0.001126 - Subset-Accuracy: 0.955625 - F1-Score: 0.947124
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011157 	Validation Loss: 0.005464
+Adiitional val metrics: - ROC-AUC: 0.995181 - Log-Loss: 0.396239 - Hamming-Loss: 0.001095 - Subset-Accuracy: 0.955934 - F1-Score: 0.948658
+Validation loss decreased (0.006489 --> 0.005464).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010352 	Validation Loss: 0.005138
+Adiitional val metrics: - ROC-AUC: 0.995704 - Log-Loss: 0.374834 - Hamming-Loss: 0.001074 - Subset-Accuracy: 0.956366 - F1-Score: 0.949695
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009668 	Validation Loss: 0.004918
+Adiitional val metrics: - ROC-AUC: 0.996095 - Log-Loss: 0.359798 - Hamming-Loss: 0.001063 - Subset-Accuracy: 0.956702 - F1-Score: 0.950212
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 30, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7817925347222221
+
+
+
+Iteration No: 12 ended. Search finished for the next optimal point.
+Time taken: 656.8985
+Function value obtained: -0.7818
+Current minimum: -0.7818
+Iteration No: 13 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026952 	Validation Loss: 0.009690
+Adiitional val metrics: - ROC-AUC: 0.987046 - Log-Loss: 0.671680 - Hamming-Loss: 0.001311 - Subset-Accuracy: 0.951123 - F1-Score: 0.937834
+Validation loss decreased (inf --> 0.009690).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015825 	Validation Loss: 0.006732
+Adiitional val metrics: - ROC-AUC: 0.992911 - Log-Loss: 0.481074 - Hamming-Loss: 0.001212 - Subset-Accuracy: 0.953131 - F1-Score: 0.942883
+Validation loss decreased (0.009690 --> 0.006732).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013387 	Validation Loss: 0.005936
+Adiitional val metrics: - ROC-AUC: 0.994432 - Log-Loss: 0.429522 - Hamming-Loss: 0.001155 - Subset-Accuracy: 0.953585 - F1-Score: 0.945690
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011912 	Validation Loss: 0.005514
+Adiitional val metrics: - ROC-AUC: 0.995030 - Log-Loss: 0.401785 - Hamming-Loss: 0.001113 - Subset-Accuracy: 0.955349 - F1-Score: 0.947770
+Validation loss decreased (0.006732 --> 0.005514).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010941 	Validation Loss: 0.005231
+Adiitional val metrics: - ROC-AUC: 0.995502 - Log-Loss: 0.381900 - Hamming-Loss: 0.001087 - Subset-Accuracy: 0.955978 - F1-Score: 0.949049
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010174 	Validation Loss: 0.005025
+Adiitional val metrics: - ROC-AUC: 0.995886 - Log-Loss: 0.367217 - Hamming-Loss: 0.001073 - Subset-Accuracy: 0.955584 - F1-Score: 0.949743
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 30, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7773539005915852
+
+
+
+Iteration No: 13 ended. Search finished for the next optimal point.
+Time taken: 659.2022
+Function value obtained: -0.7774
+Current minimum: -0.7818
+Iteration No: 14 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026536 	Validation Loss: 0.008619
+Adiitional val metrics: - ROC-AUC: 0.989156 - Log-Loss: 0.600306 - Hamming-Loss: 0.001294 - Subset-Accuracy: 0.953376 - F1-Score: 0.938721
+Validation loss decreased (inf --> 0.008619).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014693 	Validation Loss: 0.006249
+Adiitional val metrics: - ROC-AUC: 0.993983 - Log-Loss: 0.449329 - Hamming-Loss: 0.001183 - Subset-Accuracy: 0.953935 - F1-Score: 0.944455
+Validation loss decreased (0.008619 --> 0.006249).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012346 	Validation Loss: 0.005722
+Adiitional val metrics: - ROC-AUC: 0.994923 - Log-Loss: 0.414237 - Hamming-Loss: 0.001129 - Subset-Accuracy: 0.954755 - F1-Score: 0.947049
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011108 	Validation Loss: 0.005412
+Adiitional val metrics: - ROC-AUC: 0.995400 - Log-Loss: 0.393173 - Hamming-Loss: 0.001099 - Subset-Accuracy: 0.955625 - F1-Score: 0.948452
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 30, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7446808510638299
+
+
+
+Iteration No: 14 ended. Search finished for the next optimal point.
+Time taken: 441.0239
+Function value obtained: -0.7447
+Current minimum: -0.7818
+Iteration No: 15 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.027316 	Validation Loss: 0.009811
+Adiitional val metrics: - ROC-AUC: 0.985777 - Log-Loss: 0.683884 - Hamming-Loss: 0.001310 - Subset-Accuracy: 0.953630 - F1-Score: 0.938039
+Validation loss decreased (inf --> 0.009811).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.016724 	Validation Loss: 0.007200
+Adiitional val metrics: - ROC-AUC: 0.991893 - Log-Loss: 0.511622 - Hamming-Loss: 0.001248 - Subset-Accuracy: 0.953862 - F1-Score: 0.941095
+Validation loss decreased (0.009811 --> 0.007200).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.014262 	Validation Loss: 0.006332
+Adiitional val metrics: - ROC-AUC: 0.993565 - Log-Loss: 0.455196 - Hamming-Loss: 0.001199 - Subset-Accuracy: 0.954033 - F1-Score: 0.943568
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.012674 	Validation Loss: 0.005746
+Adiitional val metrics: - ROC-AUC: 0.994415 - Log-Loss: 0.417119 - Hamming-Loss: 0.001170 - Subset-Accuracy: 0.954841 - F1-Score: 0.945017
+Validation loss decreased (0.007200 --> 0.005746).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011550 	Validation Loss: 0.005537
+Adiitional val metrics: - ROC-AUC: 0.994861 - Log-Loss: 0.402633 - Hamming-Loss: 0.001146 - Subset-Accuracy: 0.954275 - F1-Score: 0.946212
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010741 	Validation Loss: 0.005318
+Adiitional val metrics: - ROC-AUC: 0.995278 - Log-Loss: 0.387079 - Hamming-Loss: 0.001125 - Subset-Accuracy: 0.954418 - F1-Score: 0.947267
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 20, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7335522590873059
+
+
+
+Iteration No: 15 ended. Search finished for the next optimal point.
+Time taken: 653.0005
+Function value obtained: -0.7336
+Current minimum: -0.7818
+Iteration No: 16 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026005 	Validation Loss: 0.007975
+Adiitional val metrics: - ROC-AUC: 0.989430 - Log-Loss: 0.566616 - Hamming-Loss: 0.001246 - Subset-Accuracy: 0.953929 - F1-Score: 0.941191
+Validation loss decreased (inf --> 0.007975).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014187 	Validation Loss: 0.006057
+Adiitional val metrics: - ROC-AUC: 0.994072 - Log-Loss: 0.438020 - Hamming-Loss: 0.001166 - Subset-Accuracy: 0.955454 - F1-Score: 0.945197
+Validation loss decreased (0.007975 --> 0.006057).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.011925 	Validation Loss: 0.005559
+Adiitional val metrics: - ROC-AUC: 0.995129 - Log-Loss: 0.403897 - Hamming-Loss: 0.001119 - Subset-Accuracy: 0.955482 - F1-Score: 0.947530
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010690 	Validation Loss: 0.005303
+Adiitional val metrics: - ROC-AUC: 0.995733 - Log-Loss: 0.384230 - Hamming-Loss: 0.001096 - Subset-Accuracy: 0.954860 - F1-Score: 0.948667
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7599174245383027
+
+
+
+Iteration No: 16 ended. Search finished for the next optimal point.
+Time taken: 440.8368
+Function value obtained: -0.7599
+Current minimum: -0.7818
+Iteration No: 17 started. Searching for the next optimal point.
+upsampling for 5 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.024183 	Validation Loss: 0.009737
+Adiitional val metrics: - ROC-AUC: 0.984628 - Log-Loss: 0.677284 - Hamming-Loss: 0.001291 - Subset-Accuracy: 0.954450 - F1-Score: 0.938800
+Validation loss decreased (inf --> 0.009737).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014587 	Validation Loss: 0.007474
+Adiitional val metrics: - ROC-AUC: 0.991074 - Log-Loss: 0.528755 - Hamming-Loss: 0.001225 - Subset-Accuracy: 0.953042 - F1-Score: 0.942109
+Validation loss decreased (0.009737 --> 0.007474).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012410 	Validation Loss: 0.006321
+Adiitional val metrics: - ROC-AUC: 0.993634 - Log-Loss: 0.453388 - Hamming-Loss: 0.001186 - Subset-Accuracy: 0.954447 - F1-Score: 0.944091
+Validation loss decreased (0.007474 --> 0.006321).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011001 	Validation Loss: 0.005763
+Adiitional val metrics: - ROC-AUC: 0.994750 - Log-Loss: 0.416980 - Hamming-Loss: 0.001148 - Subset-Accuracy: 0.956273 - F1-Score: 0.946026
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.009998 	Validation Loss: 0.005439
+Adiitional val metrics: - ROC-AUC: 0.995379 - Log-Loss: 0.394088 - Hamming-Loss: 0.001115 - Subset-Accuracy: 0.956270 - F1-Score: 0.947680
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 5, window_size = 3, embed_size = 30, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7124286806658432
+
+
+
+Iteration No: 17 ended. Search finished for the next optimal point.
+Time taken: 398.9080
+Function value obtained: -0.7124
+Current minimum: -0.7818
+Iteration No: 18 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026558 	Validation Loss: 0.009527
+Adiitional val metrics: - ROC-AUC: 0.987184 - Log-Loss: 0.663609 - Hamming-Loss: 0.001298 - Subset-Accuracy: 0.948225 - F1-Score: 0.938500
+Validation loss decreased (inf --> 0.009527).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015399 	Validation Loss: 0.006807
+Adiitional val metrics: - ROC-AUC: 0.992605 - Log-Loss: 0.486832 - Hamming-Loss: 0.001195 - Subset-Accuracy: 0.953830 - F1-Score: 0.943714
+Validation loss decreased (0.009527 --> 0.006807).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013056 	Validation Loss: 0.006004
+Adiitional val metrics: - ROC-AUC: 0.994203 - Log-Loss: 0.432516 - Hamming-Loss: 0.001145 - Subset-Accuracy: 0.954535 - F1-Score: 0.946226
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011719 	Validation Loss: 0.005637
+Adiitional val metrics: - ROC-AUC: 0.994657 - Log-Loss: 0.409518 - Hamming-Loss: 0.001117 - Subset-Accuracy: 0.954847 - F1-Score: 0.947658
+Validation loss decreased (0.006807 --> 0.005637).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010798 	Validation Loss: 0.005371
+Adiitional val metrics: - ROC-AUC: 0.995210 - Log-Loss: 0.390253 - Hamming-Loss: 0.001102 - Subset-Accuracy: 0.954907 - F1-Score: 0.948391
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010100 	Validation Loss: 0.005161
+Adiitional val metrics: - ROC-AUC: 0.995574 - Log-Loss: 0.375492 - Hamming-Loss: 0.001091 - Subset-Accuracy: 0.955012 - F1-Score: 0.948896
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7798160202270159
+
+
+
+Iteration No: 18 ended. Search finished for the next optimal point.
+Time taken: 656.2312
+Function value obtained: -0.7798
+Current minimum: -0.7818
+Iteration No: 19 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.029084 	Validation Loss: 0.008669
+Adiitional val metrics: - ROC-AUC: 0.986630 - Log-Loss: 0.616823 - Hamming-Loss: 0.001281 - Subset-Accuracy: 0.954917 - F1-Score: 0.939289
+Validation loss decreased (inf --> 0.008669).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015910 	Validation Loss: 0.006976
+Adiitional val metrics: - ROC-AUC: 0.992466 - Log-Loss: 0.498467 - Hamming-Loss: 0.001216 - Subset-Accuracy: 0.952750 - F1-Score: 0.942690
+Validation loss decreased (0.008669 --> 0.006976).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013577 	Validation Loss: 0.006152
+Adiitional val metrics: - ROC-AUC: 0.994117 - Log-Loss: 0.442294 - Hamming-Loss: 0.001175 - Subset-Accuracy: 0.954043 - F1-Score: 0.944698
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.012109 	Validation Loss: 0.005696
+Adiitional val metrics: - ROC-AUC: 0.994878 - Log-Loss: 0.412954 - Hamming-Loss: 0.001137 - Subset-Accuracy: 0.954968 - F1-Score: 0.946638
+Validation loss decreased (0.006976 --> 0.005696).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011122 	Validation Loss: 0.005439
+Adiitional val metrics: - ROC-AUC: 0.995326 - Log-Loss: 0.395041 - Hamming-Loss: 0.001114 - Subset-Accuracy: 0.954704 - F1-Score: 0.947742
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010406 	Validation Loss: 0.005232
+Adiitional val metrics: - ROC-AUC: 0.995727 - Log-Loss: 0.380532 - Hamming-Loss: 0.001101 - Subset-Accuracy: 0.954230 - F1-Score: 0.948398
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7708547610025444
+
+
+
+Iteration No: 19 ended. Search finished for the next optimal point.
+Time taken: 652.6718
+Function value obtained: -0.7709
+Current minimum: -0.7818
+Iteration No: 20 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026262 	Validation Loss: 0.008891
+Adiitional val metrics: - ROC-AUC: 0.987263 - Log-Loss: 0.621495 - Hamming-Loss: 0.001276 - Subset-Accuracy: 0.952915 - F1-Score: 0.939543
+Validation loss decreased (inf --> 0.008891).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015541 	Validation Loss: 0.006966
+Adiitional val metrics: - ROC-AUC: 0.992571 - Log-Loss: 0.496012 - Hamming-Loss: 0.001194 - Subset-Accuracy: 0.952899 - F1-Score: 0.943808
+Validation loss decreased (0.008891 --> 0.006966).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013124 	Validation Loss: 0.005973
+Adiitional val metrics: - ROC-AUC: 0.994416 - Log-Loss: 0.428981 - Hamming-Loss: 0.001149 - Subset-Accuracy: 0.954415 - F1-Score: 0.946029
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011625 	Validation Loss: 0.005601
+Adiitional val metrics: - ROC-AUC: 0.995039 - Log-Loss: 0.404340 - Hamming-Loss: 0.001113 - Subset-Accuracy: 0.954825 - F1-Score: 0.947791
+Validation loss decreased (0.006966 --> 0.005601).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010677 	Validation Loss: 0.005210
+Adiitional val metrics: - ROC-AUC: 0.995727 - Log-Loss: 0.378871 - Hamming-Loss: 0.001084 - Subset-Accuracy: 0.955857 - F1-Score: 0.949205
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009922 	Validation Loss: 0.004936
+Adiitional val metrics: - ROC-AUC: 0.996089 - Log-Loss: 0.361097 - Hamming-Loss: 0.001064 - Subset-Accuracy: 0.957211 - F1-Score: 0.950252
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7824793388429752
+
+
+
+Iteration No: 20 ended. Search finished for the next optimal point.
+Time taken: 656.0994
+Function value obtained: -0.7825
+Current minimum: -0.7825
+Iteration No: 21 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.029112 	Validation Loss: 0.008371
+Adiitional val metrics: - ROC-AUC: 0.987767 - Log-Loss: 0.597423 - Hamming-Loss: 0.001285 - Subset-Accuracy: 0.954910 - F1-Score: 0.939196
+Validation loss decreased (inf --> 0.008371).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015112 	Validation Loss: 0.006511
+Adiitional val metrics: - ROC-AUC: 0.993410 - Log-Loss: 0.466671 - Hamming-Loss: 0.001204 - Subset-Accuracy: 0.953960 - F1-Score: 0.943300
+Validation loss decreased (0.008371 --> 0.006511).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012877 	Validation Loss: 0.005831
+Adiitional val metrics: - ROC-AUC: 0.994577 - Log-Loss: 0.421737 - Hamming-Loss: 0.001167 - Subset-Accuracy: 0.954561 - F1-Score: 0.945206
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011541 	Validation Loss: 0.005475
+Adiitional val metrics: - ROC-AUC: 0.995156 - Log-Loss: 0.398325 - Hamming-Loss: 0.001134 - Subset-Accuracy: 0.954691 - F1-Score: 0.946802
+Validation loss decreased (0.006511 --> 0.005475).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010628 	Validation Loss: 0.005224
+Adiitional val metrics: - ROC-AUC: 0.995554 - Log-Loss: 0.381637 - Hamming-Loss: 0.001110 - Subset-Accuracy: 0.954307 - F1-Score: 0.947983
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009906 	Validation Loss: 0.005016
+Adiitional val metrics: - ROC-AUC: 0.995976 - Log-Loss: 0.366082 - Hamming-Loss: 0.001079 - Subset-Accuracy: 0.954809 - F1-Score: 0.949429
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7793812178856456
+
+
+
+Iteration No: 21 ended. Search finished for the next optimal point.
+Time taken: 652.4323
+Function value obtained: -0.7794
+Current minimum: -0.7825
+Iteration No: 22 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.029280 	Validation Loss: 0.009039
+Adiitional val metrics: - ROC-AUC: 0.987297 - Log-Loss: 0.640816 - Hamming-Loss: 0.001280 - Subset-Accuracy: 0.955492 - F1-Score: 0.939335
+Validation loss decreased (inf --> 0.009039).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014987 	Validation Loss: 0.006463
+Adiitional val metrics: - ROC-AUC: 0.993628 - Log-Loss: 0.463287 - Hamming-Loss: 0.001194 - Subset-Accuracy: 0.953964 - F1-Score: 0.943715
+Validation loss decreased (0.009039 --> 0.006463).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012562 	Validation Loss: 0.005785
+Adiitional val metrics: - ROC-AUC: 0.994906 - Log-Loss: 0.417760 - Hamming-Loss: 0.001149 - Subset-Accuracy: 0.954129 - F1-Score: 0.945985
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011188 	Validation Loss: 0.005420
+Adiitional val metrics: - ROC-AUC: 0.995504 - Log-Loss: 0.393547 - Hamming-Loss: 0.001116 - Subset-Accuracy: 0.953827 - F1-Score: 0.947654
+Validation loss decreased (0.006463 --> 0.005420).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010313 	Validation Loss: 0.005169
+Adiitional val metrics: - ROC-AUC: 0.995912 - Log-Loss: 0.376414 - Hamming-Loss: 0.001084 - Subset-Accuracy: 0.954675 - F1-Score: 0.949227
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009666 	Validation Loss: 0.004952
+Adiitional val metrics: - ROC-AUC: 0.996286 - Log-Loss: 0.361147 - Hamming-Loss: 0.001072 - Subset-Accuracy: 0.954841 - F1-Score: 0.949826
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7866507747318235
+
+
+
+Iteration No: 22 ended. Search finished for the next optimal point.
+Time taken: 654.8575
+Function value obtained: -0.7867
+Current minimum: -0.7867
+Iteration No: 23 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.029011 	Validation Loss: 0.008544
+Adiitional val metrics: - ROC-AUC: 0.986991 - Log-Loss: 0.602269 - Hamming-Loss: 0.001284 - Subset-Accuracy: 0.955711 - F1-Score: 0.939143
+Validation loss decreased (inf --> 0.008544).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015525 	Validation Loss: 0.006791
+Adiitional val metrics: - ROC-AUC: 0.992501 - Log-Loss: 0.485456 - Hamming-Loss: 0.001208 - Subset-Accuracy: 0.953919 - F1-Score: 0.943120
+Validation loss decreased (0.008544 --> 0.006791).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013134 	Validation Loss: 0.005946
+Adiitional val metrics: - ROC-AUC: 0.994435 - Log-Loss: 0.427121 - Hamming-Loss: 0.001173 - Subset-Accuracy: 0.953643 - F1-Score: 0.944883
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011670 	Validation Loss: 0.005521
+Adiitional val metrics: - ROC-AUC: 0.995233 - Log-Loss: 0.397754 - Hamming-Loss: 0.001135 - Subset-Accuracy: 0.953735 - F1-Score: 0.946762
+Validation loss decreased (0.006791 --> 0.005521).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010679 	Validation Loss: 0.005222
+Adiitional val metrics: - ROC-AUC: 0.995733 - Log-Loss: 0.378013 - Hamming-Loss: 0.001114 - Subset-Accuracy: 0.953913 - F1-Score: 0.947768
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009914 	Validation Loss: 0.005021
+Adiitional val metrics: - ROC-AUC: 0.996121 - Log-Loss: 0.364249 - Hamming-Loss: 0.001099 - Subset-Accuracy: 0.953122 - F1-Score: 0.948545
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7716398434101783
+
+
+
+Iteration No: 23 ended. Search finished for the next optimal point.
+Time taken: 652.8841
+Function value obtained: -0.7716
+Current minimum: -0.7867
+Iteration No: 24 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.029159 	Validation Loss: 0.007903
+Adiitional val metrics: - ROC-AUC: 0.988822 - Log-Loss: 0.565975 - Hamming-Loss: 0.001285 - Subset-Accuracy: 0.953433 - F1-Score: 0.939113
+Validation loss decreased (inf --> 0.007903).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014765 	Validation Loss: 0.006258
+Adiitional val metrics: - ROC-AUC: 0.993798 - Log-Loss: 0.452087 - Hamming-Loss: 0.001206 - Subset-Accuracy: 0.954586 - F1-Score: 0.943180
+Validation loss decreased (0.007903 --> 0.006258).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012481 	Validation Loss: 0.005691
+Adiitional val metrics: - ROC-AUC: 0.994951 - Log-Loss: 0.413312 - Hamming-Loss: 0.001169 - Subset-Accuracy: 0.954701 - F1-Score: 0.945065
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011176 	Validation Loss: 0.005335
+Adiitional val metrics: - ROC-AUC: 0.995518 - Log-Loss: 0.388927 - Hamming-Loss: 0.001130 - Subset-Accuracy: 0.954640 - F1-Score: 0.946975
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7250663204831518
+
+
+
+Iteration No: 24 ended. Search finished for the next optimal point.
+Time taken: 438.6416
+Function value obtained: -0.7251
+Current minimum: -0.7867
+Iteration No: 25 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026215 	Validation Loss: 0.007775
+Adiitional val metrics: - ROC-AUC: 0.990318 - Log-Loss: 0.551029 - Hamming-Loss: 0.001252 - Subset-Accuracy: 0.953023 - F1-Score: 0.940838
+Validation loss decreased (inf --> 0.007775).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014175 	Validation Loss: 0.006094
+Adiitional val metrics: - ROC-AUC: 0.994102 - Log-Loss: 0.437826 - Hamming-Loss: 0.001174 - Subset-Accuracy: 0.954100 - F1-Score: 0.944796
+Validation loss decreased (0.007775 --> 0.006094).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012068 	Validation Loss: 0.005572
+Adiitional val metrics: - ROC-AUC: 0.994988 - Log-Loss: 0.404061 - Hamming-Loss: 0.001133 - Subset-Accuracy: 0.954844 - F1-Score: 0.946896
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010851 	Validation Loss: 0.005269
+Adiitional val metrics: - ROC-AUC: 0.995532 - Log-Loss: 0.383478 - Hamming-Loss: 0.001101 - Subset-Accuracy: 0.955562 - F1-Score: 0.948413
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7407280806699709
+
+
+
+Iteration No: 25 ended. Search finished for the next optimal point.
+Time taken: 439.3348
+Function value obtained: -0.7407
+Current minimum: -0.7867
+Iteration No: 26 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026289 	Validation Loss: 0.009230
+Adiitional val metrics: - ROC-AUC: 0.987994 - Log-Loss: 0.645464 - Hamming-Loss: 0.001307 - Subset-Accuracy: 0.945226 - F1-Score: 0.937974
+Validation loss decreased (inf --> 0.009230).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015191 	Validation Loss: 0.006720
+Adiitional val metrics: - ROC-AUC: 0.992995 - Log-Loss: 0.479693 - Hamming-Loss: 0.001189 - Subset-Accuracy: 0.953560 - F1-Score: 0.944017
+Validation loss decreased (0.009230 --> 0.006720).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012928 	Validation Loss: 0.005755
+Adiitional val metrics: - ROC-AUC: 0.994522 - Log-Loss: 0.418254 - Hamming-Loss: 0.001140 - Subset-Accuracy: 0.955041 - F1-Score: 0.946487
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011511 	Validation Loss: 0.005387
+Adiitional val metrics: - ROC-AUC: 0.995171 - Log-Loss: 0.392883 - Hamming-Loss: 0.001120 - Subset-Accuracy: 0.955549 - F1-Score: 0.947519
+Validation loss decreased (0.006720 --> 0.005387).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010589 	Validation Loss: 0.005203
+Adiitional val metrics: - ROC-AUC: 0.995540 - Log-Loss: 0.379028 - Hamming-Loss: 0.001107 - Subset-Accuracy: 0.955571 - F1-Score: 0.948153
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009880 	Validation Loss: 0.004985
+Adiitional val metrics: - ROC-AUC: 0.996034 - Log-Loss: 0.362779 - Hamming-Loss: 0.001092 - Subset-Accuracy: 0.955638 - F1-Score: 0.948917
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7737457645644333
+
+
+
+Iteration No: 26 ended. Search finished for the next optimal point.
+Time taken: 654.4352
+Function value obtained: -0.7737
+Current minimum: -0.7867
+Iteration No: 27 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026682 	Validation Loss: 0.009305
+Adiitional val metrics: - ROC-AUC: 0.987551 - Log-Loss: 0.645287 - Hamming-Loss: 0.001301 - Subset-Accuracy: 0.945807 - F1-Score: 0.938304
+Validation loss decreased (inf --> 0.009305).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015240 	Validation Loss: 0.006566
+Adiitional val metrics: - ROC-AUC: 0.993162 - Log-Loss: 0.469501 - Hamming-Loss: 0.001196 - Subset-Accuracy: 0.954068 - F1-Score: 0.943578
+Validation loss decreased (0.009305 --> 0.006566).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012888 	Validation Loss: 0.005842
+Adiitional val metrics: - ROC-AUC: 0.994492 - Log-Loss: 0.422800 - Hamming-Loss: 0.001146 - Subset-Accuracy: 0.954605 - F1-Score: 0.946068
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011531 	Validation Loss: 0.005623
+Adiitional val metrics: - ROC-AUC: 0.994691 - Log-Loss: 0.407165 - Hamming-Loss: 0.001120 - Subset-Accuracy: 0.954408 - F1-Score: 0.947408
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7275120164797437
+
+
+
+Iteration No: 27 ended. Search finished for the next optimal point.
+Time taken: 441.9769
+Function value obtained: -0.7275
+Current minimum: -0.7867
+Iteration No: 28 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.028730 	Validation Loss: 0.008632
+Adiitional val metrics: - ROC-AUC: 0.986334 - Log-Loss: 0.614170 - Hamming-Loss: 0.001285 - Subset-Accuracy: 0.954602 - F1-Score: 0.939044
+Validation loss decreased (inf --> 0.008632).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.016150 	Validation Loss: 0.007068
+Adiitional val metrics: - ROC-AUC: 0.991646 - Log-Loss: 0.507383 - Hamming-Loss: 0.001227 - Subset-Accuracy: 0.952419 - F1-Score: 0.942119
+Validation loss decreased (0.008632 --> 0.007068).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013971 	Validation Loss: 0.006312
+Adiitional val metrics: - ROC-AUC: 0.993653 - Log-Loss: 0.453916 - Hamming-Loss: 0.001186 - Subset-Accuracy: 0.953388 - F1-Score: 0.944188
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.012526 	Validation Loss: 0.005885
+Adiitional val metrics: - ROC-AUC: 0.994407 - Log-Loss: 0.425310 - Hamming-Loss: 0.001154 - Subset-Accuracy: 0.954523 - F1-Score: 0.945813
+Validation loss decreased (0.007068 --> 0.005885).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011501 	Validation Loss: 0.005565
+Adiitional val metrics: - ROC-AUC: 0.994927 - Log-Loss: 0.404841 - Hamming-Loss: 0.001125 - Subset-Accuracy: 0.954898 - F1-Score: 0.947263
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010761 	Validation Loss: 0.005312
+Adiitional val metrics: - ROC-AUC: 0.995393 - Log-Loss: 0.387861 - Hamming-Loss: 0.001102 - Subset-Accuracy: 0.955447 - F1-Score: 0.948385
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7567839758294634
+
+
+
+Iteration No: 28 ended. Search finished for the next optimal point.
+Time taken: 659.8599
+Function value obtained: -0.7568
+Current minimum: -0.7867
+Iteration No: 29 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.030154 	Validation Loss: 0.010202
+Adiitional val metrics: - ROC-AUC: 0.983416 - Log-Loss: 0.717011 - Hamming-Loss: 0.001311 - Subset-Accuracy: 0.955813 - F1-Score: 0.937837
+Validation loss decreased (inf --> 0.010202).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.018007 	Validation Loss: 0.008397
+Adiitional val metrics: - ROC-AUC: 0.988940 - Log-Loss: 0.592521 - Hamming-Loss: 0.001271 - Subset-Accuracy: 0.954650 - F1-Score: 0.939984
+Validation loss decreased (0.010202 --> 0.008397).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.015828 	Validation Loss: 0.007309
+Adiitional val metrics: - ROC-AUC: 0.991902 - Log-Loss: 0.517405 - Hamming-Loss: 0.001234 - Subset-Accuracy: 0.954113 - F1-Score: 0.941820
+Validation loss decreased (0.008397 --> 0.007309).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.014278 	Validation Loss: 0.006642
+Adiitional val metrics: - ROC-AUC: 0.993487 - Log-Loss: 0.470745 - Hamming-Loss: 0.001219 - Subset-Accuracy: 0.952683 - F1-Score: 0.942632
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.013169 	Validation Loss: 0.006223
+Adiitional val metrics: - ROC-AUC: 0.994231 - Log-Loss: 0.442125 - Hamming-Loss: 0.001194 - Subset-Accuracy: 0.953379 - F1-Score: 0.943886
+Validation loss decreased (0.007309 --> 0.006223).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.012226 	Validation Loss: 0.005918
+Adiitional val metrics: - ROC-AUC: 0.994723 - Log-Loss: 0.421265 - Hamming-Loss: 0.001170 - Subset-Accuracy: 0.953525 - F1-Score: 0.945073
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 7 	Training Loss: 0.011519 	Validation Loss: 0.005705
+Adiitional val metrics: - ROC-AUC: 0.995068 - Log-Loss: 0.406742 - Hamming-Loss: 0.001155 - Subset-Accuracy: 0.953096 - F1-Score: 0.945794
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 20, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.6948093653295966
+
+
+
+Iteration No: 29 ended. Search finished for the next optimal point.
+Time taken: 764.5954
+Function value obtained: -0.6948
+Current minimum: -0.7867
+Iteration No: 30 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026900 	Validation Loss: 0.008927
+Adiitional val metrics: - ROC-AUC: 0.987337 - Log-Loss: 0.620769 - Hamming-Loss: 0.001296 - Subset-Accuracy: 0.954192 - F1-Score: 0.938659
+Validation loss decreased (inf --> 0.008927).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015614 	Validation Loss: 0.006727
+Adiitional val metrics: - ROC-AUC: 0.992772 - Log-Loss: 0.479621 - Hamming-Loss: 0.001202 - Subset-Accuracy: 0.954726 - F1-Score: 0.943427
+Validation loss decreased (0.008927 --> 0.006727).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013097 	Validation Loss: 0.005929
+Adiitional val metrics: - ROC-AUC: 0.993990 - Log-Loss: 0.429644 - Hamming-Loss: 0.001151 - Subset-Accuracy: 0.954602 - F1-Score: 0.946005
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011748 	Validation Loss: 0.005610
+Adiitional val metrics: - ROC-AUC: 0.994613 - Log-Loss: 0.407799 - Hamming-Loss: 0.001122 - Subset-Accuracy: 0.955257 - F1-Score: 0.947421
+Validation loss decreased (0.006727 --> 0.005610).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010867 	Validation Loss: 0.005371
+Adiitional val metrics: - ROC-AUC: 0.995196 - Log-Loss: 0.390519 - Hamming-Loss: 0.001094 - Subset-Accuracy: 0.955552 - F1-Score: 0.948783
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010146 	Validation Loss: 0.005158
+Adiitional val metrics: - ROC-AUC: 0.995645 - Log-Loss: 0.375110 - Hamming-Loss: 0.001084 - Subset-Accuracy: 0.955377 - F1-Score: 0.949288
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 20, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7724357217257826
+
+
+
+Iteration No: 30 ended. Search finished for the next optimal point.
+Time taken: 652.8079
+Function value obtained: -0.7724
+Current minimum: -0.7867
+Iteration No: 31 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026914 	Validation Loss: 0.009139
+Adiitional val metrics: - ROC-AUC: 0.987633 - Log-Loss: 0.643176 - Hamming-Loss: 0.001300 - Subset-Accuracy: 0.953064 - F1-Score: 0.938400
+Validation loss decreased (inf --> 0.009139).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015619 	Validation Loss: 0.006920
+Adiitional val metrics: - ROC-AUC: 0.992692 - Log-Loss: 0.492150 - Hamming-Loss: 0.001225 - Subset-Accuracy: 0.953935 - F1-Score: 0.942234
+Validation loss decreased (0.009139 --> 0.006920).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013128 	Validation Loss: 0.006078
+Adiitional val metrics: - ROC-AUC: 0.993960 - Log-Loss: 0.437065 - Hamming-Loss: 0.001147 - Subset-Accuracy: 0.954389 - F1-Score: 0.946061
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011676 	Validation Loss: 0.005621
+Adiitional val metrics: - ROC-AUC: 0.994845 - Log-Loss: 0.405986 - Hamming-Loss: 0.001122 - Subset-Accuracy: 0.954107 - F1-Score: 0.947354
+Validation loss decreased (0.006920 --> 0.005621).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010756 	Validation Loss: 0.005466
+Adiitional val metrics: - ROC-AUC: 0.995203 - Log-Loss: 0.394318 - Hamming-Loss: 0.001104 - Subset-Accuracy: 0.953735 - F1-Score: 0.948216
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010052 	Validation Loss: 0.005186
+Adiitional val metrics: - ROC-AUC: 0.995772 - Log-Loss: 0.374321 - Hamming-Loss: 0.001089 - Subset-Accuracy: 0.953862 - F1-Score: 0.948966
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 20, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7770511622794966
+
+
+
+Iteration No: 31 ended. Search finished for the next optimal point.
+Time taken: 655.2715
+Function value obtained: -0.7771
+Current minimum: -0.7867
+Iteration No: 32 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026954 	Validation Loss: 0.009556
+Adiitional val metrics: - ROC-AUC: 0.987180 - Log-Loss: 0.659390 - Hamming-Loss: 0.001354 - Subset-Accuracy: 0.949271 - F1-Score: 0.935693
+Validation loss decreased (inf --> 0.009556).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015644 	Validation Loss: 0.006591
+Adiitional val metrics: - ROC-AUC: 0.992909 - Log-Loss: 0.473189 - Hamming-Loss: 0.001228 - Subset-Accuracy: 0.954405 - F1-Score: 0.942113
+Validation loss decreased (0.009556 --> 0.006591).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013024 	Validation Loss: 0.005855
+Adiitional val metrics: - ROC-AUC: 0.994416 - Log-Loss: 0.423622 - Hamming-Loss: 0.001156 - Subset-Accuracy: 0.955187 - F1-Score: 0.945703
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011587 	Validation Loss: 0.005499
+Adiitional val metrics: - ROC-AUC: 0.995146 - Log-Loss: 0.399191 - Hamming-Loss: 0.001120 - Subset-Accuracy: 0.955269 - F1-Score: 0.947403
+Validation loss decreased (0.006591 --> 0.005499).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010665 	Validation Loss: 0.005282
+Adiitional val metrics: - ROC-AUC: 0.995602 - Log-Loss: 0.382941 - Hamming-Loss: 0.001087 - Subset-Accuracy: 0.955308 - F1-Score: 0.949010
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009937 	Validation Loss: 0.005066
+Adiitional val metrics: - ROC-AUC: 0.996002 - Log-Loss: 0.367244 - Hamming-Loss: 0.001077 - Subset-Accuracy: 0.954923 - F1-Score: 0.949529
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 20, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.775838334893453
+
+
+
+Iteration No: 32 ended. Search finished for the next optimal point.
+Time taken: 624.8982
+Function value obtained: -0.7758
+Current minimum: -0.7867
+Iteration No: 33 started. Searching for the next optimal point.
+upsampling for 5 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.024302 	Validation Loss: 0.009568
+Adiitional val metrics: - ROC-AUC: 0.985749 - Log-Loss: 0.659346 - Hamming-Loss: 0.001292 - Subset-Accuracy: 0.954726 - F1-Score: 0.938855
+Validation loss decreased (inf --> 0.009568).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014114 	Validation Loss: 0.006841
+Adiitional val metrics: - ROC-AUC: 0.991907 - Log-Loss: 0.490672 - Hamming-Loss: 0.001218 - Subset-Accuracy: 0.955587 - F1-Score: 0.942545
+Validation loss decreased (0.009568 --> 0.006841).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012161 	Validation Loss: 0.006203
+Adiitional val metrics: - ROC-AUC: 0.993469 - Log-Loss: 0.447880 - Hamming-Loss: 0.001164 - Subset-Accuracy: 0.957065 - F1-Score: 0.945273
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010968 	Validation Loss: 0.005795
+Adiitional val metrics: - ROC-AUC: 0.994496 - Log-Loss: 0.419427 - Hamming-Loss: 0.001124 - Subset-Accuracy: 0.957446 - F1-Score: 0.947209
+Validation loss decreased (0.006841 --> 0.005795).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010091 	Validation Loss: 0.005572
+Adiitional val metrics: - ROC-AUC: 0.995090 - Log-Loss: 0.402322 - Hamming-Loss: 0.001095 - Subset-Accuracy: 0.957392 - F1-Score: 0.948592
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009416 	Validation Loss: 0.005334
+Adiitional val metrics: - ROC-AUC: 0.995483 - Log-Loss: 0.386586 - Hamming-Loss: 0.001082 - Subset-Accuracy: 0.957236 - F1-Score: 0.949275
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 5, window_size = 7, embed_size = 20, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7433342931183415
+
+
+
+Iteration No: 33 ended. Search finished for the next optimal point.
+Time taken: 447.4150
+Function value obtained: -0.7433
+Current minimum: -0.7867
+Iteration No: 34 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.027268 	Validation Loss: 0.009586
+Adiitional val metrics: - ROC-AUC: 0.985346 - Log-Loss: 0.672168 - Hamming-Loss: 0.001294 - Subset-Accuracy: 0.955686 - F1-Score: 0.938719
+Validation loss decreased (inf --> 0.009586).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.017130 	Validation Loss: 0.007465
+Adiitional val metrics: - ROC-AUC: 0.990839 - Log-Loss: 0.534350 - Hamming-Loss: 0.001266 - Subset-Accuracy: 0.954869 - F1-Score: 0.940214
+Validation loss decreased (0.009586 --> 0.007465).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.014621 	Validation Loss: 0.006588
+Adiitional val metrics: - ROC-AUC: 0.993163 - Log-Loss: 0.474496 - Hamming-Loss: 0.001206 - Subset-Accuracy: 0.954364 - F1-Score: 0.943198
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.013070 	Validation Loss: 0.006054
+Adiitional val metrics: - ROC-AUC: 0.993965 - Log-Loss: 0.437719 - Hamming-Loss: 0.001187 - Subset-Accuracy: 0.954752 - F1-Score: 0.944193
+Validation loss decreased (0.007465 --> 0.006054).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011916 	Validation Loss: 0.005731
+Adiitional val metrics: - ROC-AUC: 0.994498 - Log-Loss: 0.415261 - Hamming-Loss: 0.001169 - Subset-Accuracy: 0.953900 - F1-Score: 0.945145
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.011056 	Validation Loss: 0.005498
+Adiitional val metrics: - ROC-AUC: 0.994842 - Log-Loss: 0.398296 - Hamming-Loss: 0.001148 - Subset-Accuracy: 0.953551 - F1-Score: 0.946179
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 20, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.6900674795785485
+
+
+
+Iteration No: 34 ended. Search finished for the next optimal point.
+Time taken: 654.2576
+Function value obtained: -0.6901
+Current minimum: -0.7867
+Iteration No: 35 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026660 	Validation Loss: 0.009395
+Adiitional val metrics: - ROC-AUC: 0.987992 - Log-Loss: 0.651104 - Hamming-Loss: 0.001324 - Subset-Accuracy: 0.951009 - F1-Score: 0.937235
+Validation loss decreased (inf --> 0.009395).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015038 	Validation Loss: 0.006626
+Adiitional val metrics: - ROC-AUC: 0.993259 - Log-Loss: 0.471261 - Hamming-Loss: 0.001199 - Subset-Accuracy: 0.952369 - F1-Score: 0.943575
+Validation loss decreased (0.009395 --> 0.006626).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012665 	Validation Loss: 0.005907
+Adiitional val metrics: - ROC-AUC: 0.994504 - Log-Loss: 0.424715 - Hamming-Loss: 0.001142 - Subset-Accuracy: 0.953560 - F1-Score: 0.946410
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011349 	Validation Loss: 0.005654
+Adiitional val metrics: - ROC-AUC: 0.994782 - Log-Loss: 0.407465 - Hamming-Loss: 0.001112 - Subset-Accuracy: 0.954380 - F1-Score: 0.947856
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 30, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7441148108230756
+
+
+
+Iteration No: 35 ended. Search finished for the next optimal point.
+Time taken: 442.2553
+Function value obtained: -0.7441
+Current minimum: -0.7867
+Iteration No: 36 started. Searching for the next optimal point.
+upsampling for 5 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.023666 	Validation Loss: 0.008694
+Adiitional val metrics: - ROC-AUC: 0.986999 - Log-Loss: 0.609880 - Hamming-Loss: 0.001261 - Subset-Accuracy: 0.953890 - F1-Score: 0.940323
+Validation loss decreased (inf --> 0.008694).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.013454 	Validation Loss: 0.006731
+Adiitional val metrics: - ROC-AUC: 0.992083 - Log-Loss: 0.482901 - Hamming-Loss: 0.001178 - Subset-Accuracy: 0.955968 - F1-Score: 0.944557
+Validation loss decreased (0.008694 --> 0.006731).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.011628 	Validation Loss: 0.006029
+Adiitional val metrics: - ROC-AUC: 0.993761 - Log-Loss: 0.435814 - Hamming-Loss: 0.001155 - Subset-Accuracy: 0.956248 - F1-Score: 0.945667
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010448 	Validation Loss: 0.005603
+Adiitional val metrics: - ROC-AUC: 0.994617 - Log-Loss: 0.407463 - Hamming-Loss: 0.001111 - Subset-Accuracy: 0.957109 - F1-Score: 0.947868
+Validation loss decreased (0.006731 --> 0.005603).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.009649 	Validation Loss: 0.005279
+Adiitional val metrics: - ROC-AUC: 0.995275 - Log-Loss: 0.385324 - Hamming-Loss: 0.001099 - Subset-Accuracy: 0.957096 - F1-Score: 0.948496
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009029 	Validation Loss: 0.005067
+Adiitional val metrics: - ROC-AUC: 0.995748 - Log-Loss: 0.370372 - Hamming-Loss: 0.001081 - Subset-Accuracy: 0.957335 - F1-Score: 0.949342
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 5, window_size = 7, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7627917414721724
+
+
+
+Iteration No: 36 ended. Search finished for the next optimal point.
+Time taken: 475.1245
+Function value obtained: -0.7628
+Current minimum: -0.7867
+Iteration No: 37 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026024 	Validation Loss: 0.007793
+Adiitional val metrics: - ROC-AUC: 0.990039 - Log-Loss: 0.553611 - Hamming-Loss: 0.001269 - Subset-Accuracy: 0.952899 - F1-Score: 0.939948
+Validation loss decreased (inf --> 0.007793).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014211 	Validation Loss: 0.006057
+Adiitional val metrics: - ROC-AUC: 0.994303 - Log-Loss: 0.436997 - Hamming-Loss: 0.001184 - Subset-Accuracy: 0.954180 - F1-Score: 0.944286
+Validation loss decreased (0.007793 --> 0.006057).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012001 	Validation Loss: 0.005566
+Adiitional val metrics: - ROC-AUC: 0.995255 - Log-Loss: 0.403778 - Hamming-Loss: 0.001126 - Subset-Accuracy: 0.954243 - F1-Score: 0.947152
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010822 	Validation Loss: 0.005412
+Adiitional val metrics: - ROC-AUC: 0.995735 - Log-Loss: 0.390665 - Hamming-Loss: 0.001102 - Subset-Accuracy: 0.953795 - F1-Score: 0.948294
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7724587267406549
+
+
+
+Iteration No: 37 ended. Search finished for the next optimal point.
+Time taken: 438.7892
+Function value obtained: -0.7725
+Current minimum: -0.7867
+Iteration No: 38 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026493 	Validation Loss: 0.008102
+Adiitional val metrics: - ROC-AUC: 0.989505 - Log-Loss: 0.570928 - Hamming-Loss: 0.001263 - Subset-Accuracy: 0.951955 - F1-Score: 0.940279
+Validation loss decreased (inf --> 0.008102).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014126 	Validation Loss: 0.006319
+Adiitional val metrics: - ROC-AUC: 0.993785 - Log-Loss: 0.454275 - Hamming-Loss: 0.001172 - Subset-Accuracy: 0.953703 - F1-Score: 0.944914
+Validation loss decreased (0.008102 --> 0.006319).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.011922 	Validation Loss: 0.005886
+Adiitional val metrics: - ROC-AUC: 0.994839 - Log-Loss: 0.424197 - Hamming-Loss: 0.001127 - Subset-Accuracy: 0.953411 - F1-Score: 0.947170
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010775 	Validation Loss: 0.005478
+Adiitional val metrics: - ROC-AUC: 0.995644 - Log-Loss: 0.394691 - Hamming-Loss: 0.001110 - Subset-Accuracy: 0.953290 - F1-Score: 0.947983
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7716689280868385
+
+
+
+Iteration No: 38 ended. Search finished for the next optimal point.
+Time taken: 429.7776
+Function value obtained: -0.7717
+Current minimum: -0.7867
+Iteration No: 39 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.028796 	Validation Loss: 0.008161
+Adiitional val metrics: - ROC-AUC: 0.989257 - Log-Loss: 0.579625 - Hamming-Loss: 0.001300 - Subset-Accuracy: 0.950484 - F1-Score: 0.938233
+Validation loss decreased (inf --> 0.008161).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014697 	Validation Loss: 0.006249
+Adiitional val metrics: - ROC-AUC: 0.994071 - Log-Loss: 0.450467 - Hamming-Loss: 0.001203 - Subset-Accuracy: 0.953233 - F1-Score: 0.943241
+Validation loss decreased (0.008161 --> 0.006249).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012520 	Validation Loss: 0.005760
+Adiitional val metrics: - ROC-AUC: 0.995138 - Log-Loss: 0.416081 - Hamming-Loss: 0.001153 - Subset-Accuracy: 0.953185 - F1-Score: 0.945763
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011267 	Validation Loss: 0.005434
+Adiitional val metrics: - ROC-AUC: 0.995662 - Log-Loss: 0.393886 - Hamming-Loss: 0.001125 - Subset-Accuracy: 0.952505 - F1-Score: 0.947168
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7286132372805043
+
+
+
+Iteration No: 39 ended. Search finished for the next optimal point.
+Time taken: 439.7950
+Function value obtained: -0.7286
+Current minimum: -0.7867
+Iteration No: 40 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026365 	Validation Loss: 0.008252
+Adiitional val metrics: - ROC-AUC: 0.990031 - Log-Loss: 0.581377 - Hamming-Loss: 0.001290 - Subset-Accuracy: 0.951978 - F1-Score: 0.938931
+Validation loss decreased (inf --> 0.008252).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014075 	Validation Loss: 0.006111
+Adiitional val metrics: - ROC-AUC: 0.994210 - Log-Loss: 0.440330 - Hamming-Loss: 0.001177 - Subset-Accuracy: 0.954377 - F1-Score: 0.944643
+Validation loss decreased (0.008252 --> 0.006111).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.011892 	Validation Loss: 0.005625
+Adiitional val metrics: - ROC-AUC: 0.995105 - Log-Loss: 0.407665 - Hamming-Loss: 0.001125 - Subset-Accuracy: 0.953802 - F1-Score: 0.947233
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010757 	Validation Loss: 0.005407
+Adiitional val metrics: - ROC-AUC: 0.995578 - Log-Loss: 0.391674 - Hamming-Loss: 0.001105 - Subset-Accuracy: 0.953188 - F1-Score: 0.948242
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.771196032986579
+
+
+
+Iteration No: 40 ended. Search finished for the next optimal point.
+Time taken: 440.0842
+Function value obtained: -0.7712
+Current minimum: -0.7867
+Iteration No: 41 started. Searching for the next optimal point.
+upsampling for 5 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.023636 	Validation Loss: 0.008600
+Adiitional val metrics: - ROC-AUC: 0.987276 - Log-Loss: 0.604653 - Hamming-Loss: 0.001245 - Subset-Accuracy: 0.954875 - F1-Score: 0.941107
+Validation loss decreased (inf --> 0.008600).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.013172 	Validation Loss: 0.006453
+Adiitional val metrics: - ROC-AUC: 0.992683 - Log-Loss: 0.464968 - Hamming-Loss: 0.001165 - Subset-Accuracy: 0.956690 - F1-Score: 0.945203
+Validation loss decreased (0.008600 --> 0.006453).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.011169 	Validation Loss: 0.005682
+Adiitional val metrics: - ROC-AUC: 0.994516 - Log-Loss: 0.412070 - Hamming-Loss: 0.001131 - Subset-Accuracy: 0.957220 - F1-Score: 0.946816
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.009958 	Validation Loss: 0.005297
+Adiitional val metrics: - ROC-AUC: 0.995396 - Log-Loss: 0.385762 - Hamming-Loss: 0.001095 - Subset-Accuracy: 0.958189 - F1-Score: 0.948592
+Validation loss decreased (0.006453 --> 0.005297).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.009173 	Validation Loss: 0.005063
+Adiitional val metrics: - ROC-AUC: 0.995922 - Log-Loss: 0.369511 - Hamming-Loss: 0.001078 - Subset-Accuracy: 0.957440 - F1-Score: 0.949480
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.008589 	Validation Loss: 0.004878
+Adiitional val metrics: - ROC-AUC: 0.996316 - Log-Loss: 0.356202 - Hamming-Loss: 0.001068 - Subset-Accuracy: 0.956896 - F1-Score: 0.950014
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 5, window_size = 7, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7733822956657208
+
+
+
+Iteration No: 41 ended. Search finished for the next optimal point.
+Time taken: 476.1977
+Function value obtained: -0.7734
+Current minimum: -0.7867
+Iteration No: 42 started. Searching for the next optimal point.
+upsampling for 5 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.023740 	Validation Loss: 0.008357
+Adiitional val metrics: - ROC-AUC: 0.987977 - Log-Loss: 0.585126 - Hamming-Loss: 0.001249 - Subset-Accuracy: 0.954717 - F1-Score: 0.940846
+Validation loss decreased (inf --> 0.008357).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.012779 	Validation Loss: 0.006226
+Adiitional val metrics: - ROC-AUC: 0.993425 - Log-Loss: 0.449399 - Hamming-Loss: 0.001156 - Subset-Accuracy: 0.957144 - F1-Score: 0.945643
+Validation loss decreased (0.008357 --> 0.006226).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.010846 	Validation Loss: 0.005650
+Adiitional val metrics: - ROC-AUC: 0.994773 - Log-Loss: 0.409856 - Hamming-Loss: 0.001115 - Subset-Accuracy: 0.957630 - F1-Score: 0.947617
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.009786 	Validation Loss: 0.005333
+Adiitional val metrics: - ROC-AUC: 0.995486 - Log-Loss: 0.387332 - Hamming-Loss: 0.001085 - Subset-Accuracy: 0.957576 - F1-Score: 0.949147
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 5, window_size = 7, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7383767650097578
+
+
+
+Iteration No: 42 ended. Search finished for the next optimal point.
+Time taken: 320.0259
+Function value obtained: -0.7384
+Current minimum: -0.7867
+Iteration No: 43 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026243 	Validation Loss: 0.007822
+Adiitional val metrics: - ROC-AUC: 0.990097 - Log-Loss: 0.554964 - Hamming-Loss: 0.001264 - Subset-Accuracy: 0.951431 - F1-Score: 0.940221
+Validation loss decreased (inf --> 0.007822).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014157 	Validation Loss: 0.005906
+Adiitional val metrics: - ROC-AUC: 0.994390 - Log-Loss: 0.426597 - Hamming-Loss: 0.001182 - Subset-Accuracy: 0.954431 - F1-Score: 0.944411
+Validation loss decreased (0.007822 --> 0.005906).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.011912 	Validation Loss: 0.005467
+Adiitional val metrics: - ROC-AUC: 0.995238 - Log-Loss: 0.397845 - Hamming-Loss: 0.001121 - Subset-Accuracy: 0.955568 - F1-Score: 0.947456
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010743 	Validation Loss: 0.005133
+Adiitional val metrics: - ROC-AUC: 0.995839 - Log-Loss: 0.375106 - Hamming-Loss: 0.001085 - Subset-Accuracy: 0.956210 - F1-Score: 0.949165
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7558532192705988
+
+
+
+Iteration No: 43 ended. Search finished for the next optimal point.
+Time taken: 441.4977
+Function value obtained: -0.7559
+Current minimum: -0.7867
+Iteration No: 44 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 128, bidirectional=True)
+  (hidden2tag): Linear(in_features=256, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.028810 	Validation Loss: 0.009478
+Adiitional val metrics: - ROC-AUC: 0.986156 - Log-Loss: 0.665798 - Hamming-Loss: 0.001288 - Subset-Accuracy: 0.954707 - F1-Score: 0.938909
+Validation loss decreased (inf --> 0.009478).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015903 	Validation Loss: 0.006969
+Adiitional val metrics: - ROC-AUC: 0.992441 - Log-Loss: 0.495738 - Hamming-Loss: 0.001207 - Subset-Accuracy: 0.953334 - F1-Score: 0.943157
+Validation loss decreased (0.009478 --> 0.006969).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013723 	Validation Loss: 0.006206
+Adiitional val metrics: - ROC-AUC: 0.994091 - Log-Loss: 0.443594 - Hamming-Loss: 0.001177 - Subset-Accuracy: 0.953344 - F1-Score: 0.944571
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.012358 	Validation Loss: 0.005823
+Adiitional val metrics: - ROC-AUC: 0.994703 - Log-Loss: 0.418180 - Hamming-Loss: 0.001145 - Subset-Accuracy: 0.953986 - F1-Score: 0.946191
+Validation loss decreased (0.006969 --> 0.005823).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.011427 	Validation Loss: 0.005562
+Adiitional val metrics: - ROC-AUC: 0.995232 - Log-Loss: 0.400801 - Hamming-Loss: 0.001126 - Subset-Accuracy: 0.954129 - F1-Score: 0.947164
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010716 	Validation Loss: 0.005323
+Adiitional val metrics: - ROC-AUC: 0.995600 - Log-Loss: 0.385968 - Hamming-Loss: 0.001109 - Subset-Accuracy: 0.954526 - F1-Score: 0.948052
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 128
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7642152319685983
+
+
+
+Iteration No: 44 ended. Search finished for the next optimal point.
+Time taken: 654.0797
+Function value obtained: -0.7642
+Current minimum: -0.7867
+Iteration No: 45 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.027425 	Validation Loss: 0.009003
+Adiitional val metrics: - ROC-AUC: 0.987636 - Log-Loss: 0.630735 - Hamming-Loss: 0.001297 - Subset-Accuracy: 0.954345 - F1-Score: 0.938599
+Validation loss decreased (inf --> 0.009003).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.015772 	Validation Loss: 0.006695
+Adiitional val metrics: - ROC-AUC: 0.992765 - Log-Loss: 0.479408 - Hamming-Loss: 0.001219 - Subset-Accuracy: 0.954221 - F1-Score: 0.942533
+Validation loss decreased (0.009003 --> 0.006695).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.013231 	Validation Loss: 0.006008
+Adiitional val metrics: - ROC-AUC: 0.994081 - Log-Loss: 0.433030 - Hamming-Loss: 0.001162 - Subset-Accuracy: 0.954882 - F1-Score: 0.945381
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011770 	Validation Loss: 0.005592
+Adiitional val metrics: - ROC-AUC: 0.994923 - Log-Loss: 0.404250 - Hamming-Loss: 0.001126 - Subset-Accuracy: 0.954583 - F1-Score: 0.947188
+Validation loss decreased (0.006695 --> 0.005592).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010796 	Validation Loss: 0.005336
+Adiitional val metrics: - ROC-AUC: 0.995487 - Log-Loss: 0.385578 - Hamming-Loss: 0.001108 - Subset-Accuracy: 0.954297 - F1-Score: 0.948096
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.010085 	Validation Loss: 0.005142
+Adiitional val metrics: - ROC-AUC: 0.995927 - Log-Loss: 0.370921 - Hamming-Loss: 0.001093 - Subset-Accuracy: 0.954145 - F1-Score: 0.948812
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 20, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7753351788525213
+
+
+
+Iteration No: 45 ended. Search finished for the next optimal point.
+Time taken: 654.3336
+Function value obtained: -0.7753
+Current minimum: -0.7867
+Iteration No: 46 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 40)
+  (lstm): LSTM(40, 64, bidirectional=True)
+  (hidden2tag): Linear(in_features=128, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.035446 	Validation Loss: 0.009426
+Adiitional val metrics: - ROC-AUC: 0.983883 - Log-Loss: 0.669645 - Hamming-Loss: 0.001327 - Subset-Accuracy: 0.954472 - F1-Score: 0.937013
+Validation loss decreased (inf --> 0.009426).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.017745 	Validation Loss: 0.008032
+Adiitional val metrics: - ROC-AUC: 0.988403 - Log-Loss: 0.572984 - Hamming-Loss: 0.001240 - Subset-Accuracy: 0.955301 - F1-Score: 0.941358
+Validation loss decreased (0.009426 --> 0.008032).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.015710 	Validation Loss: 0.007190
+Adiitional val metrics: - ROC-AUC: 0.991547 - Log-Loss: 0.512860 - Hamming-Loss: 0.001207 - Subset-Accuracy: 0.953805 - F1-Score: 0.943001
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.014141 	Validation Loss: 0.006543
+Adiitional val metrics: - ROC-AUC: 0.993360 - Log-Loss: 0.465966 - Hamming-Loss: 0.001186 - Subset-Accuracy: 0.953627 - F1-Score: 0.944013
+Validation loss decreased (0.008032 --> 0.006543).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.012875 	Validation Loss: 0.006166
+Adiitional val metrics: - ROC-AUC: 0.994330 - Log-Loss: 0.438291 - Hamming-Loss: 0.001167 - Subset-Accuracy: 0.953144 - F1-Score: 0.945031
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.011948 	Validation Loss: 0.005851
+Adiitional val metrics: - ROC-AUC: 0.994819 - Log-Loss: 0.417597 - Hamming-Loss: 0.001151 - Subset-Accuracy: 0.953636 - F1-Score: 0.945863
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 64
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.697273362852482
+
+
+
+Iteration No: 46 ended. Search finished for the next optimal point.
+Time taken: 653.1970
+Function value obtained: -0.6973
+Current minimum: -0.7867
+Iteration No: 47 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026407 	Validation Loss: 0.008936
+Adiitional val metrics: - ROC-AUC: 0.988051 - Log-Loss: 0.618895 - Hamming-Loss: 0.001302 - Subset-Accuracy: 0.953681 - F1-Score: 0.938292
+Validation loss decreased (inf --> 0.008936).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014862 	Validation Loss: 0.006588
+Adiitional val metrics: - ROC-AUC: 0.993220 - Log-Loss: 0.469904 - Hamming-Loss: 0.001178 - Subset-Accuracy: 0.955022 - F1-Score: 0.944589
+Validation loss decreased (0.008936 --> 0.006588).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012559 	Validation Loss: 0.005890
+Adiitional val metrics: - ROC-AUC: 0.994602 - Log-Loss: 0.426142 - Hamming-Loss: 0.001130 - Subset-Accuracy: 0.955663 - F1-Score: 0.946965
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011305 	Validation Loss: 0.005578
+Adiitional val metrics: - ROC-AUC: 0.995253 - Log-Loss: 0.403355 - Hamming-Loss: 0.001107 - Subset-Accuracy: 0.954837 - F1-Score: 0.948089
+Validation loss decreased (0.006588 --> 0.005578).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010530 	Validation Loss: 0.005410
+Adiitional val metrics: - ROC-AUC: 0.995649 - Log-Loss: 0.390667 - Hamming-Loss: 0.001101 - Subset-Accuracy: 0.953951 - F1-Score: 0.948406
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009880 	Validation Loss: 0.005245
+Adiitional val metrics: - ROC-AUC: 0.995986 - Log-Loss: 0.377745 - Hamming-Loss: 0.001092 - Subset-Accuracy: 0.953150 - F1-Score: 0.948804
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 30, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7975278643494796
+
+
+
+Iteration No: 47 ended. Search finished for the next optimal point.
+Time taken: 655.8260
+Function value obtained: -0.7975
+Current minimum: -0.7975
+Iteration No: 48 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026685 	Validation Loss: 0.008470
+Adiitional val metrics: - ROC-AUC: 0.988360 - Log-Loss: 0.595604 - Hamming-Loss: 0.001301 - Subset-Accuracy: 0.951088 - F1-Score: 0.938246
+Validation loss decreased (inf --> 0.008470).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014945 	Validation Loss: 0.006340
+Adiitional val metrics: - ROC-AUC: 0.993475 - Log-Loss: 0.455808 - Hamming-Loss: 0.001184 - Subset-Accuracy: 0.954091 - F1-Score: 0.944255
+Validation loss decreased (0.008470 --> 0.006340).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012525 	Validation Loss: 0.005703
+Adiitional val metrics: - ROC-AUC: 0.994755 - Log-Loss: 0.413224 - Hamming-Loss: 0.001132 - Subset-Accuracy: 0.955107 - F1-Score: 0.946895
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.011220 	Validation Loss: 0.005423
+Adiitional val metrics: - ROC-AUC: 0.995389 - Log-Loss: 0.393715 - Hamming-Loss: 0.001101 - Subset-Accuracy: 0.954370 - F1-Score: 0.948432
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 30, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7498456530280069
+
+
+
+Iteration No: 48 ended. Search finished for the next optimal point.
+Time taken: 441.3481
+Function value obtained: -0.7498
+Current minimum: -0.7975
+Iteration No: 49 started. Searching for the next optimal point.
+upsampling for 10 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 30)
+  (lstm): LSTM(30, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.026677 	Validation Loss: 0.008532
+Adiitional val metrics: - ROC-AUC: 0.989300 - Log-Loss: 0.603342 - Hamming-Loss: 0.001292 - Subset-Accuracy: 0.953322 - F1-Score: 0.938832
+Validation loss decreased (inf --> 0.008532).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014688 	Validation Loss: 0.006162
+Adiitional val metrics: - ROC-AUC: 0.993786 - Log-Loss: 0.446459 - Hamming-Loss: 0.001194 - Subset-Accuracy: 0.953859 - F1-Score: 0.943819
+Validation loss decreased (0.008532 --> 0.006162).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012176 	Validation Loss: 0.005548
+Adiitional val metrics: - ROC-AUC: 0.994954 - Log-Loss: 0.404602 - Hamming-Loss: 0.001128 - Subset-Accuracy: 0.954821 - F1-Score: 0.947046
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010895 	Validation Loss: 0.005284
+Adiitional val metrics: - ROC-AUC: 0.995607 - Log-Loss: 0.384947 - Hamming-Loss: 0.001107 - Subset-Accuracy: 0.954002 - F1-Score: 0.948091
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 10, window_size = 7, embed_size = 30, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7529438405797102
+
+
+
+Iteration No: 49 ended. Search finished for the next optimal point.
+Time taken: 440.2477
+Function value obtained: -0.7529
+Current minimum: -0.7975
+Iteration No: 50 started. Searching for the next optimal point.
+upsampling for 5 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...
+
+model summary:
+torch_tagger(
+  (word_embeddings): Embedding(44984, 20)
+  (lstm): LSTM(20, 192, bidirectional=True)
+  (hidden2tag): Linear(in_features=384, out_features=97, bias=True)
+)
+
+training model ...
+HBox(children=(IntProgress(value=0, max=30), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 1 	Training Loss: 0.024598 	Validation Loss: 0.008806
+Adiitional val metrics: - ROC-AUC: 0.986071 - Log-Loss: 0.619570 - Hamming-Loss: 0.001297 - Subset-Accuracy: 0.954831 - F1-Score: 0.938592
+Validation loss decreased (inf --> 0.008806).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 2 	Training Loss: 0.014224 	Validation Loss: 0.006827
+Adiitional val metrics: - ROC-AUC: 0.991796 - Log-Loss: 0.489649 - Hamming-Loss: 0.001246 - Subset-Accuracy: 0.954726 - F1-Score: 0.941188
+Validation loss decreased (0.008806 --> 0.006827).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 3 	Training Loss: 0.012250 	Validation Loss: 0.006128
+Adiitional val metrics: - ROC-AUC: 0.993800 - Log-Loss: 0.441496 - Hamming-Loss: 0.001179 - Subset-Accuracy: 0.956356 - F1-Score: 0.944517
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 4 	Training Loss: 0.010963 	Validation Loss: 0.005694
+Adiitional val metrics: - ROC-AUC: 0.994736 - Log-Loss: 0.412316 - Hamming-Loss: 0.001133 - Subset-Accuracy: 0.956855 - F1-Score: 0.946766
+Validation loss decreased (0.006827 --> 0.005694).  Saving model ...
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 5 	Training Loss: 0.010128 	Validation Loss: 0.005462
+Adiitional val metrics: - ROC-AUC: 0.995289 - Log-Loss: 0.395721 - Hamming-Loss: 0.001109 - Subset-Accuracy: 0.956899 - F1-Score: 0.947978
+EarlyStopping counter: 1 out of 2
+HBox(children=(IntProgress(value=0, max=790), HTML(value='')))
+HBox(children=(IntProgress(value=0, max=513), HTML(value='')))
+Epoch: 6 	Training Loss: 0.009514 	Validation Loss: 0.005255
+Adiitional val metrics: - ROC-AUC: 0.995699 - Log-Loss: 0.381163 - Hamming-Loss: 0.001095 - Subset-Accuracy: 0.956903 - F1-Score: 0.948681
+EarlyStopping counter: 2 out of 2
+Early stopping
+predicting gold label targets ...
+predicting gold label targets done
+
+Parameters: up = 5, window_size = 7, embed_size = 20, latent_dim = 192
+
+F1 Scores for global labels:
+ALL (average="micro"): 0.7394756383161022
+
+
+
+Iteration No: 50 ended. Search finished for the next optimal point.
+Time taken: 474.2673
+Function value obtained: -0.7395
+Current minimum: -0.7975
+Iteration No: 1 started. Evaluating function at provided point.
+upsampling for 7 times...
+preparing features ...
+preparing embedding matrix ...
+preparing targets ...

@@ -1,0 +1,252 @@
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.150
+F1 Scores for global labels(average="micro"): 0.850; Running time: 779.3
+Parameters: up = 9, window_size = 4, embed_size = 40, latent_dim = 192, dropout_rate = 0.149
+F1 Scores for global labels(average="micro"): 0.859; Running time: 741.2
+Parameters: up = 13, window_size = 5, embed_size = 40, latent_dim = 256, dropout_rate = 0.152
+F1 Scores for global labels(average="micro"): 0.851; Running time: 1050.2
+Parameters: up = 9, window_size = 3, embed_size = 30, latent_dim = 192, dropout_rate = 0.209
+F1 Scores for global labels(average="micro"): 0.836; Running time: 725.5
+Parameters: up = 11, window_size = 5, embed_size = 30, latent_dim = 192, dropout_rate = 0.162
+F1 Scores for global labels(average="micro"): 0.841; Running time: 789.7
+Parameters: up = 14, window_size = 6, embed_size = 40, latent_dim = 192, dropout_rate = 0.300
+F1 Scores for global labels(average="micro"): 0.859; Running time: 898.1
+Parameters: up = 6, window_size = 4, embed_size = 30, latent_dim = 256, dropout_rate = 0.235
+F1 Scores for global labels(average="micro"): 0.838; Running time: 710.4
+Parameters: up = 11, window_size = 4, embed_size = 20, latent_dim = 128, dropout_rate = 0.327
+F1 Scores for global labels(average="micro"): 0.815; Running time: 672.9
+Parameters: up = 5, window_size = 6, embed_size = 30, latent_dim = 192, dropout_rate = 0.355
+F1 Scores for global labels(average="micro"): 0.841; Running time: 561.1
+Parameters: up = 7, window_size = 5, embed_size = 30, latent_dim = 256, dropout_rate = 0.366
+F1 Scores for global labels(average="micro"): 0.844; Running time: 748.6
+Parameters: up = 9, window_size = 4, embed_size = 30, latent_dim = 192, dropout_rate = 0.040
+F1 Scores for global labels(average="micro"): 0.836; Running time: 746.3
+Parameters: up = 6, window_size = 7, embed_size = 40, latent_dim = 128, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.835; Running time: 586.7
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.855; Running time: 1111.3
+Parameters: up = 5, window_size = 5, embed_size = 40, latent_dim = 128, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.829; Running time: 511.5
+Parameters: up = 5, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.447
+F1 Scores for global labels(average="micro"): 0.845; Running time: 663.4
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.849; Running time: 943.6
+Parameters: up = 15, window_size = 7, embed_size = 20, latent_dim = 256, dropout_rate = 0.184
+F1 Scores for global labels(average="micro"): 0.829; Running time: 1169.8
+Parameters: up = 15, window_size = 6, embed_size = 40, latent_dim = 256, dropout_rate = 0.001
+F1 Scores for global labels(average="micro"): 0.854; Running time: 1176.5
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.049
+F1 Scores for global labels(average="micro"): 0.848; Running time: 1161.7
+Parameters: up = 5, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.001
+F1 Scores for global labels(average="micro"): 0.850; Running time: 668.4
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.854; Running time: 945.3
+Parameters: up = 5, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.484
+F1 Scores for global labels(average="micro"): 0.848; Running time: 583.0
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.851; Running time: 970.5
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.494
+F1 Scores for global labels(average="micro"): 0.856; Running time: 1179.6
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.854; Running time: 970.4
+Parameters: up = 5, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.480
+F1 Scores for global labels(average="micro"): 0.855; Running time: 665.7
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.850; Running time: 1124.4
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.850; Running time: 1003.9
+Parameters: up = 5, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.006
+F1 Scores for global labels(average="micro"): 0.839; Running time: 558.4
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.474
+F1 Scores for global labels(average="micro"): 0.856; Running time: 1005.5
+Parameters: up = 5, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.477
+F1 Scores for global labels(average="micro"): 0.843; Running time: 601.2
+Parameters: up = 15, window_size = 3, embed_size = 20, latent_dim = 256, dropout_rate = 0.178
+F1 Scores for global labels(average="micro"): 0.835; Running time: 1121.6
+Parameters: up = 15, window_size = 5, embed_size = 40, latent_dim = 192, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.854; Running time: 1009.7
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 128, dropout_rate = 0.028
+F1 Scores for global labels(average="micro"): 0.851; Running time: 922.6
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.854; Running time: 1007.3
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 128, dropout_rate = 0.474
+F1 Scores for global labels(average="micro"): 0.844; Running time: 901.0
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.483
+F1 Scores for global labels(average="micro"): 0.853; Running time: 1200.0
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.089
+F1 Scores for global labels(average="micro"): 0.835; Running time: 820.5
+Parameters: up = 15, window_size = 5, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.848; Running time: 989.4
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.855; Running time: 977.2
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 128, dropout_rate = 0.420
+F1 Scores for global labels(average="micro"): 0.843; Running time: 841.6
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.854; Running time: 1011.8
+Parameters: up = 5, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.008
+F1 Scores for global labels(average="micro"): 0.850; Running time: 701.6
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.848; Running time: 979.9
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 128, dropout_rate = 0.077
+F1 Scores for global labels(average="micro"): 0.841; Running time: 829.9
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.385
+F1 Scores for global labels(average="micro"): 0.855; Running time: 1207.6
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.054
+F1 Scores for global labels(average="micro"): 0.829; Running time: 671.1
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.854; Running time: 1211.5
+Parameters: up = 15, window_size = 5, embed_size = 40, latent_dim = 256, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.859; Running time: 1212.7
+Parameters: up = 14, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.012
+F1 Scores for global labels(average="micro"): 0.860; Running time: 1157.0
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.150
+F1 Scores for global labels(average="micro"): 0.847; Running time: 806.2
+Parameters: up = 9, window_size = 7, embed_size = 20, latent_dim = 256, dropout_rate = 0.065
+F1 Scores for global labels(average="micro"): 0.825; Running time: 913.0
+Parameters: up = 7, window_size = 7, embed_size = 30, latent_dim = 192, dropout_rate = 0.139
+F1 Scores for global labels(average="micro"): 0.829; Running time: 722.1
+Parameters: up = 8, window_size = 6, embed_size = 30, latent_dim = 128, dropout_rate = 0.228
+F1 Scores for global labels(average="micro"): 0.807; Running time: 682.5
+Parameters: up = 10, window_size = 6, embed_size = 40, latent_dim = 192, dropout_rate = 0.325
+F1 Scores for global labels(average="micro"): 0.841; Running time: 826.8
+Parameters: up = 8, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.221
+F1 Scores for global labels(average="micro"): 0.842; Running time: 760.2
+Parameters: up = 11, window_size = 5, embed_size = 30, latent_dim = 192, dropout_rate = 0.230
+F1 Scores for global labels(average="micro"): 0.835; Running time: 881.2
+Parameters: up = 7, window_size = 4, embed_size = 30, latent_dim = 192, dropout_rate = 0.246
+F1 Scores for global labels(average="micro"): 0.831; Running time: 727.3
+Parameters: up = 7, window_size = 4, embed_size = 40, latent_dim = 256, dropout_rate = 0.209
+F1 Scores for global labels(average="micro"): 0.849; Running time: 815.8
+Parameters: up = 5, window_size = 3, embed_size = 20, latent_dim = 256, dropout_rate = 0.186
+F1 Scores for global labels(average="micro"): 0.820; Running time: 725.8
+Parameters: up = 5, window_size = 5, embed_size = 30, latent_dim = 256, dropout_rate = 0.442
+F1 Scores for global labels(average="micro"): 0.817; Running time: 737.0
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.856; Running time: 1239.8
+Parameters: up = 5, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.851; Running time: 738.1
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.850; Running time: 1233.5
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.831; Running time: 724.2
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.150
+F1 Scores for global labels(average="micro"): 0.780; Running time: 409.9
+Parameters: up = 14, window_size = 5, embed_size = 40, latent_dim = 192, dropout_rate = 0.349
+F1 Scores for global labels(average="micro"): 0.786; Running time: 486.5
+Parameters: up = 10, window_size = 6, embed_size = 20, latent_dim = 192, dropout_rate = 0.242
+F1 Scores for global labels(average="micro"): 0.714; Running time: 404.6
+Parameters: up = 12, window_size = 5, embed_size = 30, latent_dim = 128, dropout_rate = 0.295
+F1 Scores for global labels(average="micro"): 0.783; Running time: 562.4
+Parameters: up = 8, window_size = 7, embed_size = 30, latent_dim = 192, dropout_rate = 0.335
+F1 Scores for global labels(average="micro"): 0.737; Running time: 361.6
+Parameters: up = 7, window_size = 6, embed_size = 40, latent_dim = 192, dropout_rate = 0.453
+F1 Scores for global labels(average="micro"): 0.730; Running time: 349.6
+Parameters: up = 12, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.175
+F1 Scores for global labels(average="micro"): 0.795; Running time: 446.0
+Parameters: up = 14, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.429
+F1 Scores for global labels(average="micro"): 0.822; Running time: 638.6
+Parameters: up = 7, window_size = 4, embed_size = 30, latent_dim = 192, dropout_rate = 0.308
+F1 Scores for global labels(average="micro"): 0.702; Running time: 345.2
+Parameters: up = 13, window_size = 6, embed_size = 30, latent_dim = 256, dropout_rate = 0.131
+F1 Scores for global labels(average="micro"): 0.816; Running time: 694.1
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.150
+F1 Scores for global labels(average="micro"): 0.773; Running time: 413.8
+Parameters: up = 10, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.150
+F1 Scores for global labels(average="micro"): 0.850; Running time: 794.9
+Parameters: up = 9, window_size = 7, embed_size = 20, latent_dim = 192, dropout_rate = 0.391
+F1 Scores for global labels(average="micro"): 0.771; Running time: 627.0
+Parameters: up = 13, window_size = 4, embed_size = 20, latent_dim = 256, dropout_rate = 0.402
+F1 Scores for global labels(average="micro"): 0.806; Running time: 1062.1
+Parameters: up = 13, window_size = 6, embed_size = 30, latent_dim = 256, dropout_rate = 0.136
+F1 Scores for global labels(average="micro"): 0.840; Running time: 1075.5
+Parameters: up = 5, window_size = 5, embed_size = 40, latent_dim = 128, dropout_rate = 0.459
+F1 Scores for global labels(average="micro"): 0.791; Running time: 506.7
+Parameters: up = 13, window_size = 5, embed_size = 30, latent_dim = 256, dropout_rate = 0.007
+F1 Scores for global labels(average="micro"): 0.843; Running time: 1072.5
+Parameters: up = 8, window_size = 7, embed_size = 30, latent_dim = 192, dropout_rate = 0.300
+F1 Scores for global labels(average="micro"): 0.831; Running time: 685.0
+Parameters: up = 6, window_size = 4, embed_size = 40, latent_dim = 192, dropout_rate = 0.479
+F1 Scores for global labels(average="micro"): 0.827; Running time: 602.2
+Parameters: up = 12, window_size = 5, embed_size = 30, latent_dim = 192, dropout_rate = 0.303
+F1 Scores for global labels(average="micro"): 0.828; Running time: 838.5
+Parameters: up = 7, window_size = 6, embed_size = 20, latent_dim = 192, dropout_rate = 0.065
+F1 Scores for global labels(average="micro"): 0.824; Running time: 651.9
+Parameters: up = 9, window_size = 6, embed_size = 40, latent_dim = 192, dropout_rate = 0.338
+F1 Scores for global labels(average="micro"): 0.835; Running time: 727.1
+Parameters: up = 5, window_size = 7, embed_size = 30, latent_dim = 128, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.824; Running time: 518.9
+Parameters: up = 5, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.848; Running time: 670.7
+Parameters: up = 5, window_size = 7, embed_size = 30, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.840; Running time: 587.3
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.301
+F1 Scores for global labels(average="micro"): 0.851; Running time: 1180.4
+Parameters: up = 5, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.173
+F1 Scores for global labels(average="micro"): 0.808; Running time: 457.6
+Parameters: up = 15, window_size = 5, embed_size = 40, latent_dim = 192, dropout_rate = 0.196
+F1 Scores for global labels(average="micro"): 0.850; Running time: 971.5
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 128, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.842; Running time: 811.7
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.853; Running time: 1170.7
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.852; Running time: 1179.9
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.851; Running time: 951.0
+Parameters: up = 15, window_size = 5, embed_size = 40, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.851; Running time: 1166.9
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.838; Running time: 1191.7
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.080
+F1 Scores for global labels(average="micro"): 0.855; Running time: 939.7
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 128, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.794; Running time: 702.3
+Parameters: up = 10, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.853; Running time: 793.4
+Parameters: up = 15, window_size = 3, embed_size = 20, latent_dim = 128, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.811; Running time: 878.9
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.849; Running time: 996.2
+Parameters: up = 14, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.858; Running time: 962.4
+Parameters: up = 12, window_size = 3, embed_size = 40, latent_dim = 128, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.848; Running time: 803.2
+Parameters: up = 11, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.354
+F1 Scores for global labels(average="micro"): 0.842; Running time: 964.2
+Parameters: up = 9, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.847; Running time: 757.8
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.850; Running time: 972.1
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.150
+F1 Scores for global labels(average="micro"): 0.850; Running time: 1021.1
+Parameters: up = 5, window_size = 7, embed_size = 20, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.827; Running time: 685.8
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 256, dropout_rate = 0.500
+F1 Scores for global labels(average="micro"): 0.842; Running time: 1203.5
+Parameters: up = 15, window_size = 3, embed_size = 20, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.836; Running time: 1168.6
+Parameters: up = 11, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.845; Running time: 996.4
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.854; Running time: 996.4
+Parameters: up = 5, window_size = 3, embed_size = 40, latent_dim = 128, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.833; Running time: 546.7
+Parameters: up = 15, window_size = 7, embed_size = 20, latent_dim = 256, dropout_rate = 0.002
+F1 Scores for global labels(average="micro"): 0.828; Running time: 1209.6
+Parameters: up = 15, window_size = 3, embed_size = 30, latent_dim = 192, dropout_rate = 0.014
+F1 Scores for global labels(average="micro"): 0.840; Running time: 982.1
+Parameters: up = 5, window_size = 7, embed_size = 40, latent_dim = 192, dropout_rate = 0.141
+F1 Scores for global labels(average="micro"): 0.843; Running time: 610.9
+Parameters: up = 15, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.189
+F1 Scores for global labels(average="micro"): 0.851; Running time: 1214.5
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.852; Running time: 983.3
+Parameters: up = 5, window_size = 7, embed_size = 40, latent_dim = 256, dropout_rate = 0.421
+F1 Scores for global labels(average="micro"): 0.835; Running time: 717.1
+Parameters: up = 15, window_size = 3, embed_size = 40, latent_dim = 128, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.842; Running time: 942.7
+Parameters: up = 15, window_size = 5, embed_size = 40, latent_dim = 192, dropout_rate = 0.000
+F1 Scores for global labels(average="micro"): 0.852; Running time: 1022.6
+Parameters: up = 5, window_size = 3, embed_size = 30, latent_dim = 192, dropout_rate = 0.016
+F1 Scores for global labels(average="micro"): 0.831; Running time: 639.9
+Parameters: up = 15, window_size = 4, embed_size = 40, latent_dim = 256, dropout_rate = 0.125
+F1 Scores for global labels(average="micro"): 0.850; Running time: 1211.9

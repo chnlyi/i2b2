@@ -1,0 +1,3 @@
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 3, 'embed_size': 5, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.876; Running time: 804.2

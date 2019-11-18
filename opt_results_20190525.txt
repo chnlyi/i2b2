@@ -1,0 +1,195 @@
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 2, 'latent_dim': 3, 'dropout_rate': 0.41943793093785303, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.819; Running time: 699.8
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 21, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.841; Running time: 1201.7
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.468394888433062, 'epochs': 20, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.834; Running time: 673.8
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 6, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.4789503407956794, 'epochs': 21, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.838; Running time: 674.2
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.861; Running time: 1467.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.866; Running time: 1468.2
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 6, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.013359554144312173, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.851; Running time: 679.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.867; Running time: 1474.8
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 6, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.00914989340291539, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.839; Running time: 430.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.03661775608711965, 'epochs': 20, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.842; Running time: 1218.0
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.849; Running time: 1005.9
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.864; Running time: 1477.7
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 10, 'window_size': 7, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.48298417795066395, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.867; Running time: 850.8
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.846; Running time: 1012.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.848; Running time: 1014.2
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 3, 'embed_size': 2, 'latent_dim': 5, 'dropout_rate': 0.043224314390451275, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.815; Running time: 588.7
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.865; Running time: 1235.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.831; Running time: 840.6
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 7, 'embed_size': 2, 'latent_dim': 3, 'dropout_rate': 0.03535575895570537, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.842; Running time: 1007.1
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 7, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.44873958626919513, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.829; Running time: 444.1
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.869; Running time: 1237.1
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.847; Running time: 851.4
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 10, 'window_size': 3, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.01693848836978124, 'epochs': 21, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.852; Running time: 788.0
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 10, 'window_size': 7, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.4984280123692909, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.845; Running time: 578.9
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 10, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.4743476303632137, 'epochs': 20, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.850; Running time: 967.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 10, 'window_size': 7, 'embed_size': 2, 'latent_dim': 5, 'dropout_rate': 0.4627790026133303, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.857; Running time: 1182.4
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.4995696974502289, 'epochs': 21, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.845; Running time: 1033.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.849; Running time: 903.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.843; Running time: 861.7
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.843; Running time: 911.4
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 10, 'window_size': 3, 'embed_size': 2, 'latent_dim': 3, 'dropout_rate': 0.029715052517286906, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.821; Running time: 593.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 3, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.4910730231936713, 'epochs': 20, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.835; Running time: 727.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.847; Running time: 910.0
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.5, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.866; Running time: 1330.9
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.5, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.846; Running time: 912.2
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.5, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.844; Running time: 920.7
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.840; Running time: 923.6
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 3, 'embed_size': 2, 'latent_dim': 5, 'dropout_rate': 0.4296327586541516, 'epochs': 21, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.820; Running time: 718.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.06699161407048256, 'epochs': 21, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.845; Running time: 863.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 10, 'window_size': 7, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.03419100734191206, 'epochs': 21, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.849; Running time: 831.6
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 7, 'embed_size': 2, 'latent_dim': 5, 'dropout_rate': 0.06319854573681784, 'epochs': 20, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.835; Running time: 1266.9
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.845; Running time: 927.4
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 7, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.4901261043358435, 'epochs': 20, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.844; Running time: 740.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 21, 'category': None}
+F1 Scores for global labels(average="micro"): 0.850; Running time: 923.6
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.5, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.872; Running time: 1353.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.5, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.848; Running time: 934.9
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.5, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.842; Running time: 933.6
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 10, 'window_size': 7, 'embed_size': 2, 'latent_dim': 5, 'dropout_rate': 0.4562727502110738, 'epochs': 20, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.851; Running time: 1367.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.852; Running time: 1113.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.5, 'epochs': 20, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.848; Running time: 1109.7
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 9, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.027251022722158465, 'epochs': 20, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.853; Running time: 959.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.5, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.841; Running time: 941.9
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 9, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.027558712371430323, 'epochs': 21, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.848; Running time: 964.0
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.869; Running time: 1361.0
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 7, 'embed_size': 2, 'latent_dim': 5, 'dropout_rate': 0.029934697051568433, 'epochs': 21, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.844; Running time: 1256.0
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 6, 'embed_size': 2, 'latent_dim': 3, 'dropout_rate': 0.008512499269108133, 'epochs': 20, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.824; Running time: 569.4
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 7, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.03654458468466649, 'epochs': 21, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.824; Running time: 623.6
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 3, 'embed_size': 4, 'latent_dim': 3, 'dropout_rate': 0.038077547367208205, 'epochs': 21, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.844; Running time: 760.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 4, 'embed_size': 2, 'latent_dim': 5, 'dropout_rate': 0.4454673982581162, 'epochs': 20, 'category': 'flattened'}
+F1 Scores for global labels(average="micro"): 0.837; Running time: 1513.9
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.868; Running time: 1372.1
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.869; Running time: 1376.4
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 8, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.04685706073587693, 'epochs': 20, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.854; Running time: 1089.5
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.848; Running time: 954.1
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 12, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': 'time_flattened'}
+F1 Scores for global labels(average="micro"): 0.850; Running time: 1134.7
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 11, 'window_size': 3, 'embed_size': 4, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': None}
+F1 Scores for global labels(average="micro"): 0.845; Running time: 906.5

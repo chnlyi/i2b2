@@ -1,0 +1,9 @@
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 5, 'window_size': 5, 'embed_size': 5, 'latent_dim': 5, 'dropout_rate': 0.4903905376124177, 'epochs': 21, 'category': 'cat_ind'}
+F1 Scores for global labels(average="micro"): 0.824; Running time: 685.3
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 5, 'latent_dim': 5, 'dropout_rate': 0.5, 'epochs': 20, 'category': 'cat_ind'}
+F1 Scores for global labels(average="micro"): 0.829; Running time: 1223.9
+Parameters (note: embed_size*10, ltent_dim*64):
+{'up': 15, 'window_size': 3, 'embed_size': 5, 'latent_dim': 5, 'dropout_rate': 0.0, 'epochs': 20, 'category': 'cat_ind'}
+F1 Scores for global labels(average="micro"): 0.835; Running time: 1216.1
